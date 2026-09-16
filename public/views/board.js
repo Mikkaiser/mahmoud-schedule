@@ -2,10 +2,24 @@ import { fmt, now } from "../lib/time.js";
 import { esc, orderedPeople } from "../lib/html.js";
 import { personDay, packLanes, groupPins, summarize } from "../lib/model.js";
 
-const LANE = 30;
-const PIN_STRIP = 16;
-const ALLOC_STRIP = 14;
 const MIN_PX_HOUR = 72;
+const DENSITY = {
+  detailed: { lane: 30, pinStrip: 16, allocStrip: 14, minRow: 60 },
+  compact: { lane: 26, pinStrip: 12, allocStrip: 12, minRow: 50 },
+};
+const MAJOR = new Set(["work", "lunch", "break"]);
+
+export function getDensity() {
+  try { return localStorage.getItem("density") === "detailed" ? "detailed" : "compact"; } catch { return "compact"; }
+}
+export function setDensity(d) {
+  try { localStorage.setItem("density", d); } catch {}
+}
+
+/** Compact mode: drop a block that fully contains another block of the same kind (the outer label is redundant). */
+function dropContainers(blocks) {
+  return blocks.filter((a) => !blocks.some((b) => b !== a && b.kind === a.kind && b.s >= a.s && b.e <= a.e && (b.e - b.s) < (a.e - a.s)));
+}
 
 export function renderBoard(root, { state, onEvent, prevScroll }) {
   const { schedule, events, day } = state;
@@ -13,6 +27,9 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
   const t = now();
   const nowMin = dayInfo.date === t.date ? t.min : null;
   const dayEvents = events.filter((e) => e.day === day);
+  const density = getDensity();
+  const compact = density === "compact";
+  const { lane: LANE, pinStrip: PIN_STRIP, allocStrip: ALLOC_STRIP, minRow } = DENSITY[density];
 
   // Time axis: hour-rounded span of the day's data, at least 07:00–20:00.
   let minH = 7, maxH = 20;
@@ -49,11 +66,16 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
   for (const p of people) {
     const evs = personDay(dayEvents, day, p.id);
     const sum = summarize(evs, nowMin);
-    const blocks = evs.filter((e) => !e.point && e.kind !== "allocated-lunch");
+    let blocks = evs.filter((e) => !e.point && e.kind !== "allocated-lunch");
+    let minor = [];
+    if (compact) {
+      minor = blocks.filter((e) => !MAJOR.has(e.kind));
+      blocks = dropContainers(blocks.filter((e) => MAJOR.has(e.kind)));
+    }
     const allocated = evs.filter((e) => e.kind === "allocated-lunch");
     const pins = groupPins(evs.filter((e) => e.point));
     const { placed, laneCount } = packLanes(blocks);
-    const rowH = Math.max(60, PIN_STRIP + laneCount * LANE + (allocated.length ? ALLOC_STRIP : 4));
+    const rowH = Math.max(minRow, PIN_STRIP + laneCount * LANE + (allocated.length ? ALLOC_STRIP : 4));
     const isLeader = p.role === "leader";
 
     // Status line under the name.
@@ -64,14 +86,19 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
     else if (sum.done) status = `Done for the day`;
     else if (sum.headline) status = `<b>${esc(shortTitle(sum.headline))}</b> until ${fmt(sum.headline.e)}`;
     else if (sum.next) status = `Next: ${esc(shortTitle(sum.next))} ${fmt(sum.next.s)}`;
-    if (sum.lunchMismatch === "none") status += ` <span class="badge badge-warn">lunch ≠ allocated</span>`;
-    else if (sum.lunchMismatch === "partial") status += ` <span class="badge badge-warn">lunch partly ≠ allocated</span>`;
+    let badge = "";
+    if (sum.lunchMismatch === "none") badge = `<span class="badge badge-warn">lunch ≠ allocated</span>`;
+    else if (sum.lunchMismatch === "partial") badge = `<span class="badge badge-warn">lunch partly ≠ allocated</span>`;
+    // Compact rows keep only the badge: the highlighted block already says what is happening now.
+    const statusHtml = compact
+      ? (badge ? `<span class="st">${badge}</span>` : "")
+      : `<span class="st">${status}${badge ? " " + badge : ""}</span>`;
 
     parts.push(
       `<div class="row-name ${isLeader ? "leader" : ""}" style="--row-h:${rowH}px">
          <span class="nm">${esc(p.name)}</span>
          <span class="sk">${esc(p.skill)}</span>
-         <span class="st">${status}</span>
+         ${statusHtml}
        </div>`
     );
     parts.push(`<div class="row-lanes ${isLeader ? "leader" : ""}" style="--row-h:${rowH}px" data-person="${p.id}">`);
@@ -102,6 +129,13 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
         `<button type="button" class="alloc ${ev.changed ? "changed" : ""}" data-id="${ev.id}"
                  style="left:${left}px;width:${width}px;top:${PIN_STRIP + laneCount * LANE + 2}px"
                  title="Allocated lunch ${fmt(ev.s)}–${fmt(ev.e)}"><span></span></button>`
+      );
+    }
+    for (const ev of minor) {
+      const left = x(ev.s), width = Math.max(4, x(ev.e) - x(ev.s));
+      parts.push(
+        `<button type="button" class="minor mn-${ev.kind} ${ev.changed ? "changed" : ""}" data-id="${ev.id}"
+                 style="left:${left}px;width:${width}px" title="${esc(ev.title)} ${fmt(ev.s)}–${fmt(ev.e)}"></button>`
       );
     }
     for (const pin of pins) {

@@ -1,6 +1,6 @@
 import { now, fmt, isSimulated, weekday, dayMonth } from "./lib/time.js";
 import { resolveEvents } from "./lib/model.js";
-import { renderBoard } from "./views/board.js";
+import { renderBoard, getDensity, setDensity } from "./views/board.js";
 import { renderNow } from "./views/now.js";
 import { renderPerson } from "./views/person.js";
 import { openSheet, closeSheet } from "./views/sheet.js";
@@ -76,6 +76,9 @@ function renderChrome() {
     a.toggleAttribute("aria-current", v === state.view);
     if (v === state.view) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   }
+  const dens = $("density");
+  dens.hidden = state.view !== "board";
+  dens.textContent = getDensity() === "compact" ? "Show details" : "Compact";
   const lock = $("lock");
   lock.setAttribute("aria-pressed", String(state.editing));
   $("lock-label").textContent = state.editing ? "Editing on" : "Unlock editing";
@@ -243,6 +246,7 @@ async function boot() {
   setInterval(minuteLoop, 1000);
   setInterval(pollOverrides, POLL_MS);
   document.addEventListener("visibilitychange", () => { if (!document.hidden) { pollOverrides(); render(); } });
+  $("density").addEventListener("click", () => { setDensity(getDensity() === "compact" ? "detailed" : "compact"); render(); });
   $("sheet-backdrop").addEventListener("click", closeSheet);
   window.addEventListener("keydown", (e) => { if (e.key === "Escape") closeSheet(); });
 }
