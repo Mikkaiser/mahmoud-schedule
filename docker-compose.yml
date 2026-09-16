@@ -1,0 +1,11 @@
+services:
+  mahmoud-schedule:
+    build: .
+    container_name: mahmoud-schedule
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    env_file: .env
+    volumes:
+      # Live time changes are stored here; keep it so they survive restarts and rebuilds.
+      - ./store:/app/store

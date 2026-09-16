@@ -1,0 +1,192 @@
+# C1 — Competition day 1 (Wed 23 Sep 2026)
+
+@maitha
+08:15-08:30 Reception
+08:30-08:45 General Briefing (Open Comunication)
+08:45-09:00 Expert/Competitor (Open Comunication)
+09:00-12:30 Competition
+12:00-12:30 Allocated Lunch time
+12:30-13:30 Lunch
+13:30-17:00 Competition
+17:00-17:30 Expert/Competitor (Optional Open Comunication)
+17:00-18:00 Printing and Backup Files
+17:30-17:30 Competitor Finish time
+
+@essa
+08:15-08:30 Competitors enter shop / change cloth
+08:30-08:45 CC
+08:45-13:00 Competition
+13:00-13:30 Clean Workstation
+13:30-13:30 END of Competition Day
+13:30-14:30 Lunch
+13:30-14:00 Allocated Lunch time
+17:30-17:30 Competitor Finish time
+
+@zayed
+08:00-14:15 Commence Module 1 - First - 10mm plate butt weld, Second - Pipe butt…
+08:15-08:30 Expert/Competitor Brief
+08:30-12:00 Work
+12:00-12:15 Break - In Workshop
+12:15-14:15 Work
+14:15-14:15 End of competition Day 1 Group A
+14:15-15:15 Lunch Group A
+14:30-15:00 Allocated Lunch time
+21:00-21:00 Competitor Finish time
+
+# Aircraft Maintenance: the PDF lists every group's rotation; merged into one line per slot.
+@sultan
+09:00-11:30 Module A-1
+09:00-12:30 Module B / C / D / E (rotation — depends on group)
+12:00-14:30 Module A-2
+14:15-17:45 Module B / C / D / E (rotation — depends on group)
+15:00-17:30 Module A-3
+17:45-17:45 Competitor Finish time
+
+@mansoor
+08:15-08:30 Competitors to arrive
+08:30-08:45 Compatriot Communication
+09:00-09:30 Test Project briefing - Hardware Design (HWD) Phase 1: Circuit…
+09:30-12:30 HWD Phase 1: Circuit Design
+13:00-15:00 Lunch
+13:00-13:30 Allocated Lunch time
+15:00-15:15 Test Project briefing - Hardware Design (HWD) Phase 2: PCB Layout
+15:15-18:15 HWD Phase 2: PCB Layout
+18:15-18:15 Competitor Finish Time
+19:00-19:00 Competitor Finish time
+
+@shahad-h
+08:15-08:30 Competitors Arrive
+08:30-08:45 Open Communication
+08:45-09:15 Workstation configuration
+09:15-09:30 Test Project Module Briefing
+09:30-09:45 Module Reading and Q&A
+09:45-12:45 Test Project Module A
+12:30-13:00 Allocated Lunch time
+12:45-14:15 Lunch
+14:15-14:30 Test Project Module Briefing
+14:30-14:45 Module Reading and Q&A
+14:45-17:45 Test Project Module B
+17:45-17:45 Competitor Finish Time
+
+@ibrahim
+09:00-09:00 Competitors arrival
+09:10-09:35 Open communication (15 min Competitor/Expert)
+09:35-09:50 Hand out test project to competitors (15 min)
+09:50-09:55 Competitors to review at new equipment/materials prepare tools …
+09:55-10:00 Toolbox check by experts verifying no additional tools brought in
+10:00-10:00 Competitors begin
+12:30-13:30 Competitors group 1 lunch
+13:00-14:00 Competitors group 2 lunch
+13:30-17:30 Group 1 back to work
+14:00-17:30 Group 2 back to work
+17:00-17:00 Finish
+17:00-17:15 Tidy up work area (15min)
+17:15-17:30 Open communication (15min) Collect competition documentation
+17:30-17:30 No Marking on day 1
+17:30-17:30 Competitors out of competition site
+17:30-17:30 Competitor Finish time
+
+@shahad-m
+11:15-12:40 Lunch time
+11:30-12:00 Allocated Lunch time
+12:40-12:45 Competitors preparation in front of the workstation (PPE) - Module D
+12:45-13:00 Familiarization Module D
+13:00-14:00 Module D (Fault Finding)
+14:00-14:05 Competitors preparation in front of the workstation (PPE) - Module A
+14:05-15:15 Module A (Main Project)
+15:15-15:25 Break and Refreshment
+15:25-15:30 Competitors preparation in front of the workstation (PPE) - Module A
+15:30-17:45 Module A (Main Project)
+18:30-18:30 Competitor Finish time
+
+@hanadi
+07:30-08:00 Competitors arrive at the competition venue
+08:00-08:15 Competition area open, Competitors may enter
+08:15-08:30 Overview: C1 to C4
+08:30-08:45 C1 Briefing
+08:45-09:00 Open Communication
+09:00-12:00 Robot Building - Base Robot
+12:00-12:00 Submission of Base Robot
+12:00-14:00 Lunch Time
+12:00-12:30 Allocated Lunch time
+14:00-16:30 Robot Building - Mounting of OMS to base robot, Teams that did not finis…
+16:30-16:30 End of C1, competitors leave competition area
+16:45-16:45 Competitor Finish time
+
+@maryam
+07:30-08:00 Competitors arrive at the competition venue
+08:00-08:15 Competition area open, Competitors may enter
+08:15-08:30 Overview: C1 to C4
+08:30-08:45 C1 Briefing
+08:45-09:00 Open Communication
+09:00-12:00 Robot Building - Base Robot
+12:00-12:00 Submission of Base Robot
+12:00-14:00 Lunch Time
+12:00-12:30 Allocated Lunch time
+14:00-16:30 Robot Building - Mounting of OMS to base robot, Teams that did not finis…
+16:30-16:30 End of C1, competitors leave competition area
+16:45-16:45 Competitor Finish time
+
+@saood
+08:00-08:00 Competitors arrive on site
+08:15-08:30 Expert and competitor communication
+09:30-11:40 Competition Round 1
+11:00-11:30 Allocated Lunch time
+11:40-13:00 Lunch
+13:00-15:10 Competition Round 2
+15:30-17:40 Competition Round 3
+17:45-18:00 Competitors leave site
+18:00-18:00 Competitor Finish time
+
+@mais
+08:30-09:30 Module C (Competitors 1-2-3)
+11:30-12:00 Allocated Lunch time
+12:30-14:00 Module A
+14:30-15:30 Module C (Competitors 13-14-15)
+14:30-16:00 Module B
+17:45-17:45 Competitor Finish time
+
+@mariam
+08:00-08:15 Arrival
+08:15-08:25 Competitors enter the Briefing Area
+08:30-09:00 Test project reading and briefing / questions
+09:00-09:15 15 minutes of open communication between experts and competitors
+09:30-12:00 Competition part 1 with the branding module
+12:00-13:30 Lunch time
+12:00-12:30 Allocated Lunch time
+13:30-17:00 2nd part competition
+17:15-17:30 15 minutes of open communication between experts and competitors
+17:30-17:40 Competitors are leaving the workshop.
+17:35-17:35 Competitor Finish time
+
+# Health and Social Care: the PDF lists all four zones for the whole day (rotation); merged.
+@jenan
+08:30-20:45 Care zones — Hospital / Residential Care / Day Care / Home Care (rotation; Hospital & Residential end 19:45)
+12:30-13:00 Allocated Lunch time
+19:15-19:15 Competitor Finish time
+
+@leen
+08:00-08:30 Arrival of Competitors
+08:30-08:45 TP Briefing
+08:45-09:00 Compatriot Communication with Expert (15minutes)
+09:00-12:00 Competition Commences Module 1: Concept Design
+12:00-13:00 Lunch and Rest
+12:00-12:30 Allocated Lunch time
+13:00-16:00 Competition Commences Module 1 Continuation
+16:00-17:00 Leave workshop
+16:00-16:00 Competitor Finish time
+
+@norah
+07:30-08:00 Competitors arrive at the competition venue
+08:00-08:15 Competition area open. Competitors may enter
+08:15-08:30 Daily Briefing - Module 1
+08:30-08:45 Open Comms (Experts talk with Competitors)
+08:45-11:45 Module 1 - Building of UAS
+11:45-13:15 Lunch Time
+12:00-12:30 Allocated Lunch time
+13:15-14:30 Module 1 - Building of UAS continues
+14:30-15:00 Assessment
+15:00-15:10 Flying Briefing
+15:10-17:00 Flying Area Open
+17:00-17:00 End of C1. Competitors must leave the competition area
+17:00-17:00 Competitor Finish time

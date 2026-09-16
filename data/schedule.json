@@ -1,0 +1,6456 @@
+{
+  "event": {
+    "name": "WorldSkills Shanghai 2026",
+    "team": "United Arab Emirates",
+    "tz": "Asia/Shanghai"
+  },
+  "days": [
+    {
+      "id": "C-2",
+      "label": "C-2",
+      "subtitle": "Familiarization",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "C1",
+      "label": "C1",
+      "subtitle": "Competition day 1",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "C2",
+      "label": "C2",
+      "subtitle": "Competition day 2",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "C3",
+      "label": "C3",
+      "subtitle": "Competition day 3",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "C4",
+      "label": "C4",
+      "subtitle": "Competition day 4",
+      "date": "2026-09-26"
+    }
+  ],
+  "people": [
+    {
+      "id": "maitha",
+      "name": "Maitha Almessabi",
+      "skill": "Mechanical Engineering CAD",
+      "role": "competitor"
+    },
+    {
+      "id": "essa",
+      "name": "Essa Alnabhani",
+      "skill": "CNC Turning",
+      "role": "competitor"
+    },
+    {
+      "id": "zayed",
+      "name": "Zayed Naser",
+      "skill": "Welding",
+      "role": "competitor"
+    },
+    {
+      "id": "sultan",
+      "name": "Sultan Alwahedi",
+      "skill": "Aircraft Maintenance",
+      "role": "competitor"
+    },
+    {
+      "id": "mansoor",
+      "name": "Mansoor Mansoori",
+      "skill": "Electronics",
+      "role": "competitor"
+    },
+    {
+      "id": "shahad-h",
+      "name": "Shahad Alhammadi",
+      "skill": "Web Technologies",
+      "role": "competitor"
+    },
+    {
+      "id": "ibrahim",
+      "name": "Ibrahim Alsaffar",
+      "skill": "Electrical Installations",
+      "role": "competitor"
+    },
+    {
+      "id": "shahad-m",
+      "name": "Shahad Almessabi",
+      "skill": "Industrial Control",
+      "role": "competitor"
+    },
+    {
+      "id": "hanadi",
+      "name": "Hanadi Aljeaidi",
+      "skill": "Autonomous Mobile Robotics",
+      "role": "competitor"
+    },
+    {
+      "id": "maryam",
+      "name": "Maryam Alqarni",
+      "skill": "Autonomous Mobile Robotics",
+      "role": "competitor"
+    },
+    {
+      "id": "saood",
+      "name": "Saood Almessabi",
+      "skill": "Automobile Technology",
+      "role": "competitor"
+    },
+    {
+      "id": "mais",
+      "name": "Mais Barabbaa",
+      "skill": "Car Painting",
+      "role": "competitor"
+    },
+    {
+      "id": "mariam",
+      "name": "Mariam Alhashmi",
+      "skill": "Graphic Design Technology",
+      "role": "competitor"
+    },
+    {
+      "id": "jenan",
+      "name": "Jenan Almurshidi",
+      "skill": "Health and Social Care",
+      "role": "competitor"
+    },
+    {
+      "id": "leen",
+      "name": "Leen Ajja",
+      "skill": "Industrial Design Technology",
+      "role": "competitor"
+    },
+    {
+      "id": "norah",
+      "name": "Norah Alhaqal",
+      "skill": "Unmanned Aerial Systems",
+      "role": "competitor"
+    }
+  ],
+  "events": [
+    {
+      "id": "C-2-maitha-01",
+      "day": "C-2",
+      "person": "maitha",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Reception",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-maitha-02",
+      "day": "C-2",
+      "person": "maitha",
+      "start": "08:30",
+      "end": "12:30",
+      "title": "Competitors Familiarization",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-maitha-03",
+      "day": "C-2",
+      "person": "maitha",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-maitha-04",
+      "day": "C-2",
+      "person": "maitha",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-maitha-05",
+      "day": "C-2",
+      "person": "maitha",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "Competitors Familiarization",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-maitha-06",
+      "day": "C-2",
+      "person": "maitha",
+      "start": "17:00",
+      "end": "17:15",
+      "title": "Competitors Familiarization Agreement",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-essa-01",
+      "day": "C-2",
+      "person": "essa",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors enter shop, greeting by compatriot expert, change clothes",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-essa-02",
+      "day": "C-2",
+      "person": "essa",
+      "start": "08:30",
+      "end": "09:45",
+      "title": "Briefing on Agenda and Rules and expectations",
+      "kind": "briefing"
+    },
+    {
+      "id": "C-2-essa-03",
+      "day": "C-2",
+      "person": "essa",
+      "start": "09:45",
+      "end": "10:45",
+      "title": "Unpack Tools / Drawing of Workstation / Setup Workstation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-essa-04",
+      "day": "C-2",
+      "person": "essa",
+      "start": "10:45",
+      "end": "11:00",
+      "title": "15 min walk to Restaurant",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-essa-05",
+      "day": "C-2",
+      "person": "essa",
+      "start": "11:00",
+      "end": "11:45",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-essa-06",
+      "day": "C-2",
+      "person": "essa",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-essa-07",
+      "day": "C-2",
+      "person": "essa",
+      "start": "11:45",
+      "end": "12:00",
+      "title": "15 min walk to competition site",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-essa-08",
+      "day": "C-2",
+      "person": "essa",
+      "start": "12:00",
+      "end": "18:30",
+      "title": "Familiarization - Rotation as per handout",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-essa-09",
+      "day": "C-2",
+      "person": "essa",
+      "start": "18:30",
+      "end": "18:45",
+      "title": "Clean up",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-essa-10",
+      "day": "C-2",
+      "person": "essa",
+      "start": "18:45",
+      "end": "19:15",
+      "title": "Review / Clarifications / Q&A",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-essa-11",
+      "day": "C-2",
+      "person": "essa",
+      "start": "19:15",
+      "end": "20:30",
+      "title": "Dinner @ Restaurant ???",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-zayed-01",
+      "day": "C-2",
+      "person": "zayed",
+      "start": "08:00",
+      "end": "09:00",
+      "title": "Health & Safety Presentation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-zayed-02",
+      "day": "C-2",
+      "person": "zayed",
+      "start": "10:00",
+      "end": "13:00",
+      "title": "Familiarisation in Quiet Room",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-zayed-03",
+      "day": "C-2",
+      "person": "zayed",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-zayed-04",
+      "day": "C-2",
+      "person": "zayed",
+      "start": "14:30",
+      "end": "19:30",
+      "title": "Familiarisation in Workshop",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-mansoor-01",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Welcome the Competitors",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-mansoor-02",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Health, Safety, and Environment orientation in the workshop",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-mansoor-03",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "10:00",
+      "end": "12:00",
+      "title": "Familiarization for Competitors - Testing HW and SW",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-mansoor-04",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-mansoor-05",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-mansoor-06",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "13:15",
+      "end": "17:15",
+      "title": "Familiarization for Competitors - Testing HW and SW continues",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-mansoor-07",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "17:15",
+      "end": "17:15",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C-2-mansoor-08",
+      "day": "C-2",
+      "person": "mansoor",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitors Sign Familiarization Agreement",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-shahad-h-01",
+      "day": "C-2",
+      "person": "shahad-h",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-shahad-h-02",
+      "day": "C-2",
+      "person": "shahad-h",
+      "start": "08:30",
+      "end": "10:30",
+      "title": "Welcome Competitors",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-shahad-h-03",
+      "day": "C-2",
+      "person": "shahad-h",
+      "start": "10:30",
+      "end": "12:30",
+      "title": "Competitor Familiarization",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-shahad-h-04",
+      "day": "C-2",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "14:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-shahad-h-05",
+      "day": "C-2",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-shahad-h-06",
+      "day": "C-2",
+      "person": "shahad-h",
+      "start": "14:00",
+      "end": "18:00",
+      "title": "Competitor Familiarization",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-ibrahim-01",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Welcome all competitors to the work area for the Electrical Installations…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-02",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Competitor Passport check",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-03",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "09:00",
+      "end": "09:10",
+      "title": "Circulation of time tables to competitors",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-04",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "09:10",
+      "end": "09:20",
+      "title": "Competitors to be briefed on Fairness and transparency and sig…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-05",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "09:20",
+      "end": "09:30",
+      "title": "Competitors to be briefed on Health and Safety issues and sign off on…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-06",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "09:30",
+      "end": "10:30",
+      "title": "WSS to demonstrate use of equipment and materials where…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-07",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "Competitors to unpack equipment and tools and verify against…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-08",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "11:00",
+      "end": "12:30",
+      "title": "Toolbox check by experts no additional tools or equipment allowed",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-09",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-ibrahim-10",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "13:30",
+      "end": "14:30",
+      "title": "Competitors familiarise and practice with materials while being supervis…",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-ibrahim-11",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "15:30",
+      "end": "15:45",
+      "title": "Break",
+      "kind": "break"
+    },
+    {
+      "id": "C-2-ibrahim-12",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "15:30",
+      "end": "15:45",
+      "title": "Competitors familiarise and practice with materials while being supervis…",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-ibrahim-13",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "18:30",
+      "end": "18:45",
+      "title": "Tidy up",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-ibrahim-14",
+      "day": "C-2",
+      "person": "ibrahim",
+      "start": "18:45",
+      "end": "19:00",
+      "title": "Open discussion and Competitor familiarization agreement, Collect…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-shahad-m-01",
+      "day": "C-2",
+      "person": "shahad-m",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-hanadi-01",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-hanadi-02",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-hanadi-03",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Competitors ID check",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-04",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Welcome/Competition Introduction",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-05",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "09:15",
+      "end": "09:30",
+      "title": "Safety Presentation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-06",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "09:30",
+      "end": "09:45",
+      "title": "Introduction to the AMR area and layout",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-07",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "09:45",
+      "end": "10:00",
+      "title": "Presentation of the Competition timetable",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-08",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "Competitor workstation allocation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-09",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Competitor Toolbox Inspection",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-10",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Weighing 3D Printed parts, Sheet Size & Cable inspection, USB stick…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-11",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-hanadi-12",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-hanadi-13",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "13:00",
+      "end": "18:00",
+      "title": "Robot preparation, Laptop preparation",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-hanadi-14",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "18:00",
+      "end": "18:10",
+      "title": "End of familiarization",
+      "kind": "finish"
+    },
+    {
+      "id": "C-2-hanadi-15",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "18:10",
+      "end": "18:30",
+      "title": "Signing of Familiarization Agreement",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-hanadi-16",
+      "day": "C-2",
+      "person": "hanadi",
+      "start": "18:30",
+      "end": "19:00",
+      "title": "Competitors leave the competition area",
+      "kind": "leave"
+    },
+    {
+      "id": "C-2-maryam-01",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-maryam-02",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-maryam-03",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Competitors ID check",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-04",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Welcome/Competition Introduction",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-05",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "09:15",
+      "end": "09:30",
+      "title": "Safety Presentation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-06",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "09:30",
+      "end": "09:45",
+      "title": "Introduction to the AMR area and layout",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-07",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "09:45",
+      "end": "10:00",
+      "title": "Presentation of the Competition timetable",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-08",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "Competitor workstation allocation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-09",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Competitor Toolbox Inspection",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-10",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Weighing 3D Printed parts, Sheet Size & Cable inspection, USB stick…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-11",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-maryam-12",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-maryam-13",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "13:00",
+      "end": "18:00",
+      "title": "Robot preparation, Laptop preparation",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-maryam-14",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "18:00",
+      "end": "18:10",
+      "title": "End of familiarization",
+      "kind": "finish"
+    },
+    {
+      "id": "C-2-maryam-15",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "18:10",
+      "end": "18:30",
+      "title": "Signing of Familiarization Agreement",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-maryam-16",
+      "day": "C-2",
+      "person": "maryam",
+      "start": "18:30",
+      "end": "19:00",
+      "title": "Competitors leave the competition area",
+      "kind": "leave"
+    },
+    {
+      "id": "C-2-saood-01",
+      "day": "C-2",
+      "person": "saood",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-mariam-01",
+      "day": "C-2",
+      "person": "mariam",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "Familiarization for Competitors - (Preparation of workstations, Healt…",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-jenan-01",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Arrival of Competitors and Welcome",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-jenan-02",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Orientation to Health, Safety & Environment Policy & Sign Off",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-jenan-03",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "08:45",
+      "end": "10:00",
+      "title": "Welcome Competitors- 1. Fairness and Transparency Poster & Signing…",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-jenan-04",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "10:15",
+      "end": "11:15",
+      "title": "Verification of Documents",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-jenan-05",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "11:15",
+      "end": "11:30",
+      "title": "Random Chit Draw",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-jenan-06",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "11:30",
+      "end": "12:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-jenan-07",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-jenan-08",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Briefing of Site-layout, Rights and Responsibiltities, Work Flow…",
+      "kind": "briefing"
+    },
+    {
+      "id": "C-2-jenan-09",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "13:00",
+      "end": "18:00",
+      "title": "Familiarization of zones and VCOM Hands-on training",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-jenan-10",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "18:15",
+      "end": "18:30",
+      "title": "Sign-off on Competitior Familiarization Agreement",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-jenan-11",
+      "day": "C-2",
+      "person": "jenan",
+      "start": "18:30",
+      "end": "18:30",
+      "title": "Competitors Leave the Venue",
+      "kind": "leave"
+    },
+    {
+      "id": "C-2-leen-01",
+      "day": "C-2",
+      "person": "leen",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Arrival of Competitors",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-leen-02",
+      "day": "C-2",
+      "person": "leen",
+      "start": "08:10",
+      "end": "08:30",
+      "title": "Workshop Safety Training",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-leen-03",
+      "day": "C-2",
+      "person": "leen",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Draw lots for workplace allocation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-leen-04",
+      "day": "C-2",
+      "person": "leen",
+      "start": "09:00",
+      "end": "18:00",
+      "title": "Familiarization",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-leen-05",
+      "day": "C-2",
+      "person": "leen",
+      "start": "09:30",
+      "end": "10:00",
+      "title": "Toolbox Check",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-leen-06",
+      "day": "C-2",
+      "person": "leen",
+      "start": "10:00",
+      "end": "11:00",
+      "title": "3D Printing Training",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-leen-07",
+      "day": "C-2",
+      "person": "leen",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Competitor Identity and Name Spell Check",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-leen-08",
+      "day": "C-2",
+      "person": "leen",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch and Rest",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-leen-09",
+      "day": "C-2",
+      "person": "leen",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-leen-10",
+      "day": "C-2",
+      "person": "leen",
+      "start": "17:30",
+      "end": "18:00",
+      "title": "Signing of Forms and Familiarization Agreement",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-leen-11",
+      "day": "C-2",
+      "person": "leen",
+      "start": "18:00",
+      "end": "19:00",
+      "title": "Leave workshop",
+      "kind": "leave"
+    },
+    {
+      "id": "C-2-norah-01",
+      "day": "C-2",
+      "person": "norah",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-norah-02",
+      "day": "C-2",
+      "person": "norah",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C-2-norah-03",
+      "day": "C-2",
+      "person": "norah",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Competitors ID check",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-04",
+      "day": "C-2",
+      "person": "norah",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Welcome/Competition Introduction",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-05",
+      "day": "C-2",
+      "person": "norah",
+      "start": "09:15",
+      "end": "09:30",
+      "title": "Safety Presentation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-06",
+      "day": "C-2",
+      "person": "norah",
+      "start": "09:30",
+      "end": "09:45",
+      "title": "Introduction to the UAS area and layout",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-07",
+      "day": "C-2",
+      "person": "norah",
+      "start": "09:45",
+      "end": "10:00",
+      "title": "Presentation of the Competitor timetable",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-08",
+      "day": "C-2",
+      "person": "norah",
+      "start": "10:30",
+      "end": "11:00",
+      "title": "Competitor workstation allocation",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-09",
+      "day": "C-2",
+      "person": "norah",
+      "start": "11:00",
+      "end": "11:45",
+      "title": "Competitor toolbox and computer inspection",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-10",
+      "day": "C-2",
+      "person": "norah",
+      "start": "11:45",
+      "end": "13:15",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-norah-11",
+      "day": "C-2",
+      "person": "norah",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C-2-norah-12",
+      "day": "C-2",
+      "person": "norah",
+      "start": "13:15",
+      "end": "13:45",
+      "title": "Continue to setup work station and laptop software",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-norah-13",
+      "day": "C-2",
+      "person": "norah",
+      "start": "13:45",
+      "end": "14:00",
+      "title": "Signing of Familiarization Agreement",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-norah-14",
+      "day": "C-2",
+      "person": "norah",
+      "start": "14:00",
+      "end": "14:00",
+      "title": "Competitors leave the competition area",
+      "kind": "leave"
+    },
+    {
+      "id": "C1-maitha-01",
+      "day": "C1",
+      "person": "maitha",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Reception",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-maitha-02",
+      "day": "C1",
+      "person": "maitha",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "General Briefing (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-maitha-03",
+      "day": "C1",
+      "person": "maitha",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Expert/Competitor (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-maitha-04",
+      "day": "C1",
+      "person": "maitha",
+      "start": "09:00",
+      "end": "12:30",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C1-maitha-05",
+      "day": "C1",
+      "person": "maitha",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-maitha-06",
+      "day": "C1",
+      "person": "maitha",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-maitha-07",
+      "day": "C1",
+      "person": "maitha",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C1-maitha-08",
+      "day": "C1",
+      "person": "maitha",
+      "start": "17:00",
+      "end": "17:30",
+      "title": "Expert/Competitor (Optional Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-maitha-09",
+      "day": "C1",
+      "person": "maitha",
+      "start": "17:00",
+      "end": "18:00",
+      "title": "Printing and Backup Files",
+      "kind": "other"
+    },
+    {
+      "id": "C1-maitha-10",
+      "day": "C1",
+      "person": "maitha",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-essa-01",
+      "day": "C1",
+      "person": "essa",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors enter shop / change cloth",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-essa-02",
+      "day": "C1",
+      "person": "essa",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "CC",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-essa-03",
+      "day": "C1",
+      "person": "essa",
+      "start": "08:45",
+      "end": "13:00",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C1-essa-04",
+      "day": "C1",
+      "person": "essa",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Clean Workstation",
+      "kind": "other"
+    },
+    {
+      "id": "C1-essa-05",
+      "day": "C1",
+      "person": "essa",
+      "start": "13:30",
+      "end": "13:30",
+      "title": "END of Competition Day",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-essa-06",
+      "day": "C1",
+      "person": "essa",
+      "start": "13:30",
+      "end": "14:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-essa-07",
+      "day": "C1",
+      "person": "essa",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-essa-08",
+      "day": "C1",
+      "person": "essa",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-zayed-01",
+      "day": "C1",
+      "person": "zayed",
+      "start": "08:00",
+      "end": "14:15",
+      "title": "Commence Module 1 - First - 10mm plate butt weld, Second - Pipe butt…",
+      "kind": "work"
+    },
+    {
+      "id": "C1-zayed-02",
+      "day": "C1",
+      "person": "zayed",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Expert/Competitor Brief",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-zayed-03",
+      "day": "C1",
+      "person": "zayed",
+      "start": "08:30",
+      "end": "12:00",
+      "title": "Work",
+      "kind": "work"
+    },
+    {
+      "id": "C1-zayed-04",
+      "day": "C1",
+      "person": "zayed",
+      "start": "12:00",
+      "end": "12:15",
+      "title": "Break - In Workshop",
+      "kind": "break"
+    },
+    {
+      "id": "C1-zayed-05",
+      "day": "C1",
+      "person": "zayed",
+      "start": "12:15",
+      "end": "14:15",
+      "title": "Work",
+      "kind": "work"
+    },
+    {
+      "id": "C1-zayed-06",
+      "day": "C1",
+      "person": "zayed",
+      "start": "14:15",
+      "end": "14:15",
+      "title": "End of competition Day 1 Group A",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-zayed-07",
+      "day": "C1",
+      "person": "zayed",
+      "start": "14:15",
+      "end": "15:15",
+      "title": "Lunch Group A",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-zayed-08",
+      "day": "C1",
+      "person": "zayed",
+      "start": "14:30",
+      "end": "15:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-zayed-09",
+      "day": "C1",
+      "person": "zayed",
+      "start": "21:00",
+      "end": "21:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-sultan-01",
+      "day": "C1",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Module A-1",
+      "kind": "work"
+    },
+    {
+      "id": "C1-sultan-02",
+      "day": "C1",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "12:30",
+      "title": "Module B / C / D / E (rotation — depends on group)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-sultan-03",
+      "day": "C1",
+      "person": "sultan",
+      "start": "12:00",
+      "end": "14:30",
+      "title": "Module A-2",
+      "kind": "work"
+    },
+    {
+      "id": "C1-sultan-04",
+      "day": "C1",
+      "person": "sultan",
+      "start": "14:15",
+      "end": "17:45",
+      "title": "Module B / C / D / E (rotation — depends on group)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-sultan-05",
+      "day": "C1",
+      "person": "sultan",
+      "start": "15:00",
+      "end": "17:30",
+      "title": "Module A-3",
+      "kind": "work"
+    },
+    {
+      "id": "C1-sultan-06",
+      "day": "C1",
+      "person": "sultan",
+      "start": "17:45",
+      "end": "17:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-mansoor-01",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors to arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-mansoor-02",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Compatriot Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-mansoor-03",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "09:00",
+      "end": "09:30",
+      "title": "Test Project briefing - Hardware Design (HWD) Phase 1: Circuit…",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-mansoor-04",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "09:30",
+      "end": "12:30",
+      "title": "HWD Phase 1: Circuit Design",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mansoor-05",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "13:00",
+      "end": "15:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-mansoor-06",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-mansoor-07",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "15:00",
+      "end": "15:15",
+      "title": "Test Project briefing - Hardware Design (HWD) Phase 2: PCB Layout",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-mansoor-08",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "15:15",
+      "end": "18:15",
+      "title": "HWD Phase 2: PCB Layout",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mansoor-09",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "18:15",
+      "end": "18:15",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-mansoor-10",
+      "day": "C1",
+      "person": "mansoor",
+      "start": "19:00",
+      "end": "19:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-shahad-h-01",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors Arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-shahad-h-02",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-shahad-h-03",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "08:45",
+      "end": "09:15",
+      "title": "Workstation configuration",
+      "kind": "other"
+    },
+    {
+      "id": "C1-shahad-h-04",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "09:15",
+      "end": "09:30",
+      "title": "Test Project Module Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-shahad-h-05",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "09:30",
+      "end": "09:45",
+      "title": "Module Reading and Q&A",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-shahad-h-06",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "09:45",
+      "end": "12:45",
+      "title": "Test Project Module A",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-h-07",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-shahad-h-08",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "12:45",
+      "end": "14:15",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-shahad-h-09",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "14:15",
+      "end": "14:30",
+      "title": "Test Project Module Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-shahad-h-10",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "14:30",
+      "end": "14:45",
+      "title": "Module Reading and Q&A",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-shahad-h-11",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "14:45",
+      "end": "17:45",
+      "title": "Test Project Module B",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-h-12",
+      "day": "C1",
+      "person": "shahad-h",
+      "start": "17:45",
+      "end": "17:45",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-ibrahim-01",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "09:00",
+      "end": "09:00",
+      "title": "Competitors arrival",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-ibrahim-02",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "09:10",
+      "end": "09:35",
+      "title": "Open communication (15 min Competitor/Expert)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-ibrahim-03",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "09:35",
+      "end": "09:50",
+      "title": "Hand out test project to competitors (15 min)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-ibrahim-04",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "09:50",
+      "end": "09:55",
+      "title": "Competitors to review at new equipment/materials prepare tools …",
+      "kind": "other"
+    },
+    {
+      "id": "C1-ibrahim-05",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "09:55",
+      "end": "10:00",
+      "title": "Toolbox check by experts verifying no additional tools brought in",
+      "kind": "other"
+    },
+    {
+      "id": "C1-ibrahim-06",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "10:00",
+      "end": "10:00",
+      "title": "Competitors begin",
+      "kind": "work"
+    },
+    {
+      "id": "C1-ibrahim-07",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Competitors group 1 lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-ibrahim-08",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Competitors group 2 lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-ibrahim-09",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "13:30",
+      "end": "17:30",
+      "title": "Group 1 back to work",
+      "kind": "work"
+    },
+    {
+      "id": "C1-ibrahim-10",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "14:00",
+      "end": "17:30",
+      "title": "Group 2 back to work",
+      "kind": "work"
+    },
+    {
+      "id": "C1-ibrahim-11",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Finish",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-ibrahim-12",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "17:00",
+      "end": "17:15",
+      "title": "Tidy up work area (15min)",
+      "kind": "other"
+    },
+    {
+      "id": "C1-ibrahim-13",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "17:15",
+      "end": "17:30",
+      "title": "Open communication (15min) Collect competition documentation",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-ibrahim-14",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "No Marking on day 1",
+      "kind": "other"
+    },
+    {
+      "id": "C1-ibrahim-15",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitors out of competition site",
+      "kind": "leave"
+    },
+    {
+      "id": "C1-ibrahim-16",
+      "day": "C1",
+      "person": "ibrahim",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-shahad-m-01",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "11:15",
+      "end": "12:40",
+      "title": "Lunch time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-shahad-m-02",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-shahad-m-03",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "12:40",
+      "end": "12:45",
+      "title": "Competitors preparation in front of the workstation (PPE) - Module D",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-m-04",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "12:45",
+      "end": "13:00",
+      "title": "Familiarization Module D",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-m-05",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Module D (Fault Finding)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-m-06",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "14:00",
+      "end": "14:05",
+      "title": "Competitors preparation in front of the workstation (PPE) - Module A",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-m-07",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "14:05",
+      "end": "15:15",
+      "title": "Module A (Main Project)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-m-08",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "15:15",
+      "end": "15:25",
+      "title": "Break and Refreshment",
+      "kind": "break"
+    },
+    {
+      "id": "C1-shahad-m-09",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "15:25",
+      "end": "15:30",
+      "title": "Competitors preparation in front of the workstation (PPE) - Module A",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-m-10",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "15:30",
+      "end": "17:45",
+      "title": "Module A (Main Project)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-shahad-m-11",
+      "day": "C1",
+      "person": "shahad-m",
+      "start": "18:30",
+      "end": "18:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-hanadi-01",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-hanadi-02",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competition area open, Competitors may enter",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-hanadi-03",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Overview: C1 to C4",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-hanadi-04",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "C1 Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-hanadi-05",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-hanadi-06",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "09:00",
+      "end": "12:00",
+      "title": "Robot Building - Base Robot",
+      "kind": "work"
+    },
+    {
+      "id": "C1-hanadi-07",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "12:00",
+      "title": "Submission of Base Robot",
+      "kind": "work"
+    },
+    {
+      "id": "C1-hanadi-08",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "14:00",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-hanadi-09",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-hanadi-10",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "14:00",
+      "end": "16:30",
+      "title": "Robot Building - Mounting of OMS to base robot, Teams that did not finis…",
+      "kind": "work"
+    },
+    {
+      "id": "C1-hanadi-11",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of C1, competitors leave competition area",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-hanadi-12",
+      "day": "C1",
+      "person": "hanadi",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-maryam-01",
+      "day": "C1",
+      "person": "maryam",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-maryam-02",
+      "day": "C1",
+      "person": "maryam",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competition area open, Competitors may enter",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-maryam-03",
+      "day": "C1",
+      "person": "maryam",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Overview: C1 to C4",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-maryam-04",
+      "day": "C1",
+      "person": "maryam",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "C1 Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-maryam-05",
+      "day": "C1",
+      "person": "maryam",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-maryam-06",
+      "day": "C1",
+      "person": "maryam",
+      "start": "09:00",
+      "end": "12:00",
+      "title": "Robot Building - Base Robot",
+      "kind": "work"
+    },
+    {
+      "id": "C1-maryam-07",
+      "day": "C1",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "12:00",
+      "title": "Submission of Base Robot",
+      "kind": "work"
+    },
+    {
+      "id": "C1-maryam-08",
+      "day": "C1",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "14:00",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-maryam-09",
+      "day": "C1",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-maryam-10",
+      "day": "C1",
+      "person": "maryam",
+      "start": "14:00",
+      "end": "16:30",
+      "title": "Robot Building - Mounting of OMS to base robot, Teams that did not finis…",
+      "kind": "work"
+    },
+    {
+      "id": "C1-maryam-11",
+      "day": "C1",
+      "person": "maryam",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of C1, competitors leave competition area",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-maryam-12",
+      "day": "C1",
+      "person": "maryam",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-saood-01",
+      "day": "C1",
+      "person": "saood",
+      "start": "08:00",
+      "end": "08:00",
+      "title": "Competitors arrive on site",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-saood-02",
+      "day": "C1",
+      "person": "saood",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Expert and competitor communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-saood-03",
+      "day": "C1",
+      "person": "saood",
+      "start": "09:30",
+      "end": "11:40",
+      "title": "Competition Round 1",
+      "kind": "work"
+    },
+    {
+      "id": "C1-saood-04",
+      "day": "C1",
+      "person": "saood",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-saood-05",
+      "day": "C1",
+      "person": "saood",
+      "start": "11:40",
+      "end": "13:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-saood-06",
+      "day": "C1",
+      "person": "saood",
+      "start": "13:00",
+      "end": "15:10",
+      "title": "Competition Round 2",
+      "kind": "work"
+    },
+    {
+      "id": "C1-saood-07",
+      "day": "C1",
+      "person": "saood",
+      "start": "15:30",
+      "end": "17:40",
+      "title": "Competition Round 3",
+      "kind": "work"
+    },
+    {
+      "id": "C1-saood-08",
+      "day": "C1",
+      "person": "saood",
+      "start": "17:45",
+      "end": "18:00",
+      "title": "Competitors leave site",
+      "kind": "leave"
+    },
+    {
+      "id": "C1-saood-09",
+      "day": "C1",
+      "person": "saood",
+      "start": "18:00",
+      "end": "18:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-mais-01",
+      "day": "C1",
+      "person": "mais",
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Module C (Competitors 1-2-3)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mais-02",
+      "day": "C1",
+      "person": "mais",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-mais-03",
+      "day": "C1",
+      "person": "mais",
+      "start": "12:30",
+      "end": "14:00",
+      "title": "Module A",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mais-04",
+      "day": "C1",
+      "person": "mais",
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Module C (Competitors 13-14-15)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mais-05",
+      "day": "C1",
+      "person": "mais",
+      "start": "14:30",
+      "end": "16:00",
+      "title": "Module B",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mais-06",
+      "day": "C1",
+      "person": "mais",
+      "start": "17:45",
+      "end": "17:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-mariam-01",
+      "day": "C1",
+      "person": "mariam",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Arrival",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-mariam-02",
+      "day": "C1",
+      "person": "mariam",
+      "start": "08:15",
+      "end": "08:25",
+      "title": "Competitors enter the Briefing Area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-mariam-03",
+      "day": "C1",
+      "person": "mariam",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Test project reading and briefing / questions",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-mariam-04",
+      "day": "C1",
+      "person": "mariam",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-mariam-05",
+      "day": "C1",
+      "person": "mariam",
+      "start": "09:30",
+      "end": "12:00",
+      "title": "Competition part 1 with the branding module",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mariam-06",
+      "day": "C1",
+      "person": "mariam",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-mariam-07",
+      "day": "C1",
+      "person": "mariam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-mariam-08",
+      "day": "C1",
+      "person": "mariam",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "2nd part competition",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mariam-09",
+      "day": "C1",
+      "person": "mariam",
+      "start": "17:15",
+      "end": "17:30",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-mariam-10",
+      "day": "C1",
+      "person": "mariam",
+      "start": "17:30",
+      "end": "17:40",
+      "title": "Competitors are leaving the workshop.",
+      "kind": "leave"
+    },
+    {
+      "id": "C1-mariam-11",
+      "day": "C1",
+      "person": "mariam",
+      "start": "17:35",
+      "end": "17:35",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-jenan-01",
+      "day": "C1",
+      "person": "jenan",
+      "start": "08:30",
+      "end": "20:45",
+      "title": "Care zones — Hospital / Residential Care / Day Care / Home Care (rotation; Hospital & Residential end 19:45)",
+      "kind": "work"
+    },
+    {
+      "id": "C1-jenan-02",
+      "day": "C1",
+      "person": "jenan",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-jenan-03",
+      "day": "C1",
+      "person": "jenan",
+      "start": "19:15",
+      "end": "19:15",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-leen-01",
+      "day": "C1",
+      "person": "leen",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Arrival of Competitors",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-leen-02",
+      "day": "C1",
+      "person": "leen",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "TP Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-leen-03",
+      "day": "C1",
+      "person": "leen",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Compatriot Communication with Expert (15minutes)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-leen-04",
+      "day": "C1",
+      "person": "leen",
+      "start": "09:00",
+      "end": "12:00",
+      "title": "Competition Commences Module 1: Concept Design",
+      "kind": "work"
+    },
+    {
+      "id": "C1-leen-05",
+      "day": "C1",
+      "person": "leen",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch and Rest",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-leen-06",
+      "day": "C1",
+      "person": "leen",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-leen-07",
+      "day": "C1",
+      "person": "leen",
+      "start": "13:00",
+      "end": "16:00",
+      "title": "Competition Commences Module 1 Continuation",
+      "kind": "work"
+    },
+    {
+      "id": "C1-leen-08",
+      "day": "C1",
+      "person": "leen",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Leave workshop",
+      "kind": "leave"
+    },
+    {
+      "id": "C1-leen-09",
+      "day": "C1",
+      "person": "leen",
+      "start": "16:00",
+      "end": "16:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-norah-01",
+      "day": "C1",
+      "person": "norah",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-norah-02",
+      "day": "C1",
+      "person": "norah",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competition area open. Competitors may enter",
+      "kind": "arrival"
+    },
+    {
+      "id": "C1-norah-03",
+      "day": "C1",
+      "person": "norah",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Daily Briefing - Module 1",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-norah-04",
+      "day": "C1",
+      "person": "norah",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Open Comms (Experts talk with Competitors)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-norah-05",
+      "day": "C1",
+      "person": "norah",
+      "start": "08:45",
+      "end": "11:45",
+      "title": "Module 1 - Building of UAS",
+      "kind": "work"
+    },
+    {
+      "id": "C1-norah-06",
+      "day": "C1",
+      "person": "norah",
+      "start": "11:45",
+      "end": "13:15",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-norah-07",
+      "day": "C1",
+      "person": "norah",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C1-norah-08",
+      "day": "C1",
+      "person": "norah",
+      "start": "13:15",
+      "end": "14:30",
+      "title": "Module 1 - Building of UAS continues",
+      "kind": "work"
+    },
+    {
+      "id": "C1-norah-09",
+      "day": "C1",
+      "person": "norah",
+      "start": "14:30",
+      "end": "15:00",
+      "title": "Assessment",
+      "kind": "work"
+    },
+    {
+      "id": "C1-norah-10",
+      "day": "C1",
+      "person": "norah",
+      "start": "15:00",
+      "end": "15:10",
+      "title": "Flying Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-norah-11",
+      "day": "C1",
+      "person": "norah",
+      "start": "15:10",
+      "end": "17:00",
+      "title": "Flying Area Open",
+      "kind": "work"
+    },
+    {
+      "id": "C1-norah-12",
+      "day": "C1",
+      "person": "norah",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "End of C1. Competitors must leave the competition area",
+      "kind": "finish"
+    },
+    {
+      "id": "C1-norah-13",
+      "day": "C1",
+      "person": "norah",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-maitha-01",
+      "day": "C2",
+      "person": "maitha",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Reception",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-maitha-02",
+      "day": "C2",
+      "person": "maitha",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "General Briefing (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-maitha-03",
+      "day": "C2",
+      "person": "maitha",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Expert/Competitor (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-maitha-04",
+      "day": "C2",
+      "person": "maitha",
+      "start": "09:00",
+      "end": "12:30",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C2-maitha-05",
+      "day": "C2",
+      "person": "maitha",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-maitha-06",
+      "day": "C2",
+      "person": "maitha",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-maitha-07",
+      "day": "C2",
+      "person": "maitha",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C2-maitha-08",
+      "day": "C2",
+      "person": "maitha",
+      "start": "17:00",
+      "end": "17:30",
+      "title": "Expert/Competitor (Optional Open Communication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-maitha-09",
+      "day": "C2",
+      "person": "maitha",
+      "start": "17:00",
+      "end": "18:00",
+      "title": "Printing and Backup Files",
+      "kind": "other"
+    },
+    {
+      "id": "C2-maitha-10",
+      "day": "C2",
+      "person": "maitha",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-essa-01",
+      "day": "C2",
+      "person": "essa",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors enter shop / change cloth",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-essa-02",
+      "day": "C2",
+      "person": "essa",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "CC",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-essa-03",
+      "day": "C2",
+      "person": "essa",
+      "start": "08:45",
+      "end": "13:00",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C2-essa-04",
+      "day": "C2",
+      "person": "essa",
+      "start": "12:30",
+      "end": "12:45",
+      "title": "CC",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-essa-05",
+      "day": "C2",
+      "person": "essa",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Clean Workstation",
+      "kind": "other"
+    },
+    {
+      "id": "C2-essa-06",
+      "day": "C2",
+      "person": "essa",
+      "start": "13:30",
+      "end": "13:30",
+      "title": "END of Competition Day",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-essa-07",
+      "day": "C2",
+      "person": "essa",
+      "start": "13:30",
+      "end": "14:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-essa-08",
+      "day": "C2",
+      "person": "essa",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-essa-09",
+      "day": "C2",
+      "person": "essa",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-zayed-01",
+      "day": "C2",
+      "person": "zayed",
+      "start": "08:00",
+      "end": "18:45",
+      "title": "Continue Module 2 / Commence Module 3",
+      "kind": "work"
+    },
+    {
+      "id": "C2-zayed-02",
+      "day": "C2",
+      "person": "zayed",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Expert/Competitor Brief",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-zayed-03",
+      "day": "C2",
+      "person": "zayed",
+      "start": "08:30",
+      "end": "11:30",
+      "title": "Work",
+      "kind": "work"
+    },
+    {
+      "id": "C2-zayed-04",
+      "day": "C2",
+      "person": "zayed",
+      "start": "11:30",
+      "end": "11:45",
+      "title": "Break - In Workshop",
+      "kind": "break"
+    },
+    {
+      "id": "C2-zayed-05",
+      "day": "C2",
+      "person": "zayed",
+      "start": "11:45",
+      "end": "14:00",
+      "title": "Work",
+      "kind": "work"
+    },
+    {
+      "id": "C2-zayed-06",
+      "day": "C2",
+      "person": "zayed",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-zayed-07",
+      "day": "C2",
+      "person": "zayed",
+      "start": "14:30",
+      "end": "15:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-zayed-08",
+      "day": "C2",
+      "person": "zayed",
+      "start": "15:00",
+      "end": "18:45",
+      "title": "Work",
+      "kind": "work"
+    },
+    {
+      "id": "C2-zayed-09",
+      "day": "C2",
+      "person": "zayed",
+      "start": "18:45",
+      "end": "18:45",
+      "title": "End of competition Day 2",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-zayed-10",
+      "day": "C2",
+      "person": "zayed",
+      "start": "18:45",
+      "end": "18:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-sultan-01",
+      "day": "C2",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Module A-1",
+      "kind": "work"
+    },
+    {
+      "id": "C2-sultan-02",
+      "day": "C2",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "12:30",
+      "title": "Module B / C / D / E (rotation — depends on group)",
+      "kind": "work"
+    },
+    {
+      "id": "C2-sultan-03",
+      "day": "C2",
+      "person": "sultan",
+      "start": "12:00",
+      "end": "14:30",
+      "title": "Module A-2",
+      "kind": "work"
+    },
+    {
+      "id": "C2-sultan-04",
+      "day": "C2",
+      "person": "sultan",
+      "start": "14:15",
+      "end": "17:45",
+      "title": "Module B / C / D / E (rotation — depends on group)",
+      "kind": "work"
+    },
+    {
+      "id": "C2-sultan-05",
+      "day": "C2",
+      "person": "sultan",
+      "start": "15:00",
+      "end": "17:30",
+      "title": "Module A-3",
+      "kind": "work"
+    },
+    {
+      "id": "C2-sultan-06",
+      "day": "C2",
+      "person": "sultan",
+      "start": "17:45",
+      "end": "17:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-mansoor-01",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competitors to arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-mansoor-02",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Compatriot Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-mansoor-03",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Test Project briefing - Embedded Systems Programming (ESP)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-mansoor-04",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "09:30",
+      "end": "11:30",
+      "title": "ESP - Phase 1",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mansoor-05",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch at competition site (competitors and ESP assessment…",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-mansoor-06",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time (in workshop)",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-mansoor-07",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "14:00",
+      "end": "17:00",
+      "title": "ESP - Phase 2",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mansoor-08",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-mansoor-09",
+      "day": "C2",
+      "person": "mansoor",
+      "start": "18:00",
+      "end": "18:00",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-shahad-h-01",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors Arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-shahad-h-02",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-shahad-h-03",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Test Project Module Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-shahad-h-04",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Module Reading and Q&A",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-shahad-h-05",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "09:15",
+      "end": "12:15",
+      "title": "Test Project Module C",
+      "kind": "work"
+    },
+    {
+      "id": "C2-shahad-h-06",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "14:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-shahad-h-07",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-shahad-h-08",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "14:00",
+      "end": "14:15",
+      "title": "Test Project Module Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-shahad-h-09",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "14:15",
+      "end": "14:30",
+      "title": "Module Reading and Q&A",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-shahad-h-10",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "14:35",
+      "end": "17:35",
+      "title": "Test Project Module D",
+      "kind": "work"
+    },
+    {
+      "id": "C2-shahad-h-11",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "17:35",
+      "end": "17:45",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-shahad-h-12",
+      "day": "C2",
+      "person": "shahad-h",
+      "start": "17:45",
+      "end": "17:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-ibrahim-01",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "08:30",
+      "end": "08:35",
+      "title": "Competitors arrival",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-ibrahim-02",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "08:35",
+      "end": "08:50",
+      "title": "Open communication (15 min Competitor/Expert)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-ibrahim-03",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "08:50",
+      "end": "09:05",
+      "title": "Hand out test project to competitors (15 min)",
+      "kind": "work"
+    },
+    {
+      "id": "C2-ibrahim-04",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "09:05",
+      "end": "09:10",
+      "title": "Competitors to review new equipment/materials prepare tools …",
+      "kind": "other"
+    },
+    {
+      "id": "C2-ibrahim-05",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "09:10",
+      "end": "09:15",
+      "title": "Toolbox check by experts verifying no additional tools brought in",
+      "kind": "other"
+    },
+    {
+      "id": "C2-ibrahim-06",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "09:15",
+      "end": "09:15",
+      "title": "Competitors begin",
+      "kind": "work"
+    },
+    {
+      "id": "C2-ibrahim-07",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Competitors group 2 lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-ibrahim-08",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Competitors group 1 lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-ibrahim-09",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "13:30",
+      "end": "16:15",
+      "title": "Group 2 back to work",
+      "kind": "work"
+    },
+    {
+      "id": "C2-ibrahim-10",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "14:00",
+      "end": "16:15",
+      "title": "Group 1 back to work",
+      "kind": "work"
+    },
+    {
+      "id": "C2-ibrahim-11",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "16:15",
+      "end": "16:15",
+      "title": "Finish",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-ibrahim-12",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "16:15",
+      "end": "16:30",
+      "title": "Tidy up work area (15min)",
+      "kind": "other"
+    },
+    {
+      "id": "C2-ibrahim-13",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "16:30",
+      "end": "16:45",
+      "title": "Open communication (15min) Collect competition documentation",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-ibrahim-14",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitors out of competition site",
+      "kind": "leave"
+    },
+    {
+      "id": "C2-ibrahim-15",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "16:45",
+      "end": "19:30",
+      "title": "Day 2 marking (Installation work)",
+      "kind": "other"
+    },
+    {
+      "id": "C2-ibrahim-16",
+      "day": "C2",
+      "person": "ibrahim",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-shahad-m-01",
+      "day": "C2",
+      "person": "shahad-m",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-hanadi-01",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-hanadi-02",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-hanadi-03",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Briefing for C2",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-hanadi-04",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-hanadi-05",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C2-hanadi-06",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C2-hanadi-07",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-hanadi-08",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-hanadi-09",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "13:30",
+      "end": "16:00",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C2-hanadi-10",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C2-hanadi-11",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of C2 competition, competitors leave competition area",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-hanadi-12",
+      "day": "C2",
+      "person": "hanadi",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-maryam-01",
+      "day": "C2",
+      "person": "maryam",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-maryam-02",
+      "day": "C2",
+      "person": "maryam",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-maryam-03",
+      "day": "C2",
+      "person": "maryam",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Briefing for C2",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-maryam-04",
+      "day": "C2",
+      "person": "maryam",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-maryam-05",
+      "day": "C2",
+      "person": "maryam",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C2-maryam-06",
+      "day": "C2",
+      "person": "maryam",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C2-maryam-07",
+      "day": "C2",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-maryam-08",
+      "day": "C2",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-maryam-09",
+      "day": "C2",
+      "person": "maryam",
+      "start": "13:30",
+      "end": "16:00",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C2-maryam-10",
+      "day": "C2",
+      "person": "maryam",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C2-maryam-11",
+      "day": "C2",
+      "person": "maryam",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of C2 competition, competitors leave competition area",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-maryam-12",
+      "day": "C2",
+      "person": "maryam",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-saood-01",
+      "day": "C2",
+      "person": "saood",
+      "start": "08:00",
+      "end": "08:00",
+      "title": "Competitors arrive on site",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-saood-02",
+      "day": "C2",
+      "person": "saood",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Expert and Competitor communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-saood-03",
+      "day": "C2",
+      "person": "saood",
+      "start": "08:35",
+      "end": "10:45",
+      "title": "Competition Round 1",
+      "kind": "work"
+    },
+    {
+      "id": "C2-saood-04",
+      "day": "C2",
+      "person": "saood",
+      "start": "11:10",
+      "end": "13:20",
+      "title": "Competition Round 2",
+      "kind": "work"
+    },
+    {
+      "id": "C2-saood-05",
+      "day": "C2",
+      "person": "saood",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-saood-06",
+      "day": "C2",
+      "person": "saood",
+      "start": "13:20",
+      "end": "14:20",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-saood-07",
+      "day": "C2",
+      "person": "saood",
+      "start": "14:20",
+      "end": "16:30",
+      "title": "Competition Round 3",
+      "kind": "work"
+    },
+    {
+      "id": "C2-saood-08",
+      "day": "C2",
+      "person": "saood",
+      "start": "16:40",
+      "end": "18:50",
+      "title": "Competition Round 4",
+      "kind": "work"
+    },
+    {
+      "id": "C2-saood-09",
+      "day": "C2",
+      "person": "saood",
+      "start": "18:50",
+      "end": "19:00",
+      "title": "Competitors leave site",
+      "kind": "leave"
+    },
+    {
+      "id": "C2-saood-10",
+      "day": "C2",
+      "person": "saood",
+      "start": "19:00",
+      "end": "19:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-mais-01",
+      "day": "C2",
+      "person": "mais",
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Module C (Competitors 16-17-18)",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mais-02",
+      "day": "C2",
+      "person": "mais",
+      "start": "08:30",
+      "end": "11:30",
+      "title": "Module D",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mais-03",
+      "day": "C2",
+      "person": "mais",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Module F1",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mais-04",
+      "day": "C2",
+      "person": "mais",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-mais-05",
+      "day": "C2",
+      "person": "mais",
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Module C (Competitors 4-5-6)",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mais-06",
+      "day": "C2",
+      "person": "mais",
+      "start": "18:00",
+      "end": "18:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-mariam-01",
+      "day": "C2",
+      "person": "mariam",
+      "start": "08:00",
+      "end": "08:25",
+      "title": "Arrival",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-mariam-02",
+      "day": "C2",
+      "person": "mariam",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors enter the Briefing Area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-mariam-03",
+      "day": "C2",
+      "person": "mariam",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Test project reading and briefing / questions",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-mariam-04",
+      "day": "C2",
+      "person": "mariam",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-mariam-05",
+      "day": "C2",
+      "person": "mariam",
+      "start": "09:30",
+      "end": "12:00",
+      "title": "Competition starts with the packaging module",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mariam-06",
+      "day": "C2",
+      "person": "mariam",
+      "start": "09:40",
+      "end": "12:00",
+      "title": "Competitor 1 to Competitor 14 Presentation on Stage",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mariam-07",
+      "day": "C2",
+      "person": "mariam",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-mariam-08",
+      "day": "C2",
+      "person": "mariam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-mariam-09",
+      "day": "C2",
+      "person": "mariam",
+      "start": "13:30",
+      "end": "17:10",
+      "title": "2nd part of Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mariam-10",
+      "day": "C2",
+      "person": "mariam",
+      "start": "13:40",
+      "end": "16:00",
+      "title": "Competitor 15 to Competitor 29 Presentation on Stage",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mariam-11",
+      "day": "C2",
+      "person": "mariam",
+      "start": "17:25",
+      "end": "17:40",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-mariam-12",
+      "day": "C2",
+      "person": "mariam",
+      "start": "17:40",
+      "end": "17:40",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-mariam-13",
+      "day": "C2",
+      "person": "mariam",
+      "start": "17:45",
+      "end": "17:50",
+      "title": "Competitors are leaving the workshop",
+      "kind": "leave"
+    },
+    {
+      "id": "C2-jenan-01",
+      "day": "C2",
+      "person": "jenan",
+      "start": "08:30",
+      "end": "20:45",
+      "title": "Care zones — Hospital / Residential Care / Day Care / Home Care (rotation; Hospital & Residential end 19:45)",
+      "kind": "work"
+    },
+    {
+      "id": "C2-jenan-02",
+      "day": "C2",
+      "person": "jenan",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-jenan-03",
+      "day": "C2",
+      "person": "jenan",
+      "start": "19:15",
+      "end": "19:15",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-leen-01",
+      "day": "C2",
+      "person": "leen",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Arrival of Competitors",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-leen-02",
+      "day": "C2",
+      "person": "leen",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Compatriot Communication with Expert (15minutes)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-leen-03",
+      "day": "C2",
+      "person": "leen",
+      "start": "09:00",
+      "end": "12:00",
+      "title": "Competition Commences Module 2: CAD Modelling and 3D Printing",
+      "kind": "work"
+    },
+    {
+      "id": "C2-leen-04",
+      "day": "C2",
+      "person": "leen",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch and Rest",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-leen-05",
+      "day": "C2",
+      "person": "leen",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-leen-06",
+      "day": "C2",
+      "person": "leen",
+      "start": "13:00",
+      "end": "16:00",
+      "title": "Competition Commences Module 2 Continuation",
+      "kind": "work"
+    },
+    {
+      "id": "C2-leen-07",
+      "day": "C2",
+      "person": "leen",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Leave workshop",
+      "kind": "leave"
+    },
+    {
+      "id": "C2-leen-08",
+      "day": "C2",
+      "person": "leen",
+      "start": "16:00",
+      "end": "16:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C2-norah-01",
+      "day": "C2",
+      "person": "norah",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-norah-02",
+      "day": "C2",
+      "person": "norah",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competition area open. Competitors may enter",
+      "kind": "arrival"
+    },
+    {
+      "id": "C2-norah-03",
+      "day": "C2",
+      "person": "norah",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Daily Briefing - Module 3 & 5",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-norah-04",
+      "day": "C2",
+      "person": "norah",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Open Comms (Experts talk with Competitors)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-norah-05",
+      "day": "C2",
+      "person": "norah",
+      "start": "08:45",
+      "end": "11:45",
+      "title": "Module 5 - UAS Prototyping, Modelling and Mounting",
+      "kind": "work"
+    },
+    {
+      "id": "C2-norah-06",
+      "day": "C2",
+      "person": "norah",
+      "start": "11:45",
+      "end": "13:15",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-norah-07",
+      "day": "C2",
+      "person": "norah",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C2-norah-08",
+      "day": "C2",
+      "person": "norah",
+      "start": "13:15",
+      "end": "17:00",
+      "title": "Module 3 - Autonomous Programming and Flight Planning",
+      "kind": "work"
+    },
+    {
+      "id": "C2-norah-09",
+      "day": "C2",
+      "person": "norah",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitors leave the competition area",
+      "kind": "leave"
+    },
+    {
+      "id": "C2-norah-10",
+      "day": "C2",
+      "person": "norah",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-maitha-01",
+      "day": "C3",
+      "person": "maitha",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Reception",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-maitha-02",
+      "day": "C3",
+      "person": "maitha",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "General Briefing (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-maitha-03",
+      "day": "C3",
+      "person": "maitha",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Expert/Competitor (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-maitha-04",
+      "day": "C3",
+      "person": "maitha",
+      "start": "09:00",
+      "end": "12:30",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C3-maitha-05",
+      "day": "C3",
+      "person": "maitha",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-maitha-06",
+      "day": "C3",
+      "person": "maitha",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-maitha-07",
+      "day": "C3",
+      "person": "maitha",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C3-maitha-08",
+      "day": "C3",
+      "person": "maitha",
+      "start": "17:00",
+      "end": "17:30",
+      "title": "Expert/Competitor (Optional Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-maitha-09",
+      "day": "C3",
+      "person": "maitha",
+      "start": "17:00",
+      "end": "18:00",
+      "title": "Printing and Backup Files",
+      "kind": "other"
+    },
+    {
+      "id": "C3-maitha-10",
+      "day": "C3",
+      "person": "maitha",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-essa-01",
+      "day": "C3",
+      "person": "essa",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors enter shop / change cloth",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-essa-02",
+      "day": "C3",
+      "person": "essa",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "CC",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-essa-03",
+      "day": "C3",
+      "person": "essa",
+      "start": "08:45",
+      "end": "13:00",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C3-essa-04",
+      "day": "C3",
+      "person": "essa",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Clean Workstation",
+      "kind": "other"
+    },
+    {
+      "id": "C3-essa-05",
+      "day": "C3",
+      "person": "essa",
+      "start": "13:30",
+      "end": "13:30",
+      "title": "END of Competition Day",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-essa-06",
+      "day": "C3",
+      "person": "essa",
+      "start": "13:30",
+      "end": "14:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-essa-07",
+      "day": "C3",
+      "person": "essa",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-essa-08",
+      "day": "C3",
+      "person": "essa",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-zayed-01",
+      "day": "C3",
+      "person": "zayed",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-sultan-01",
+      "day": "C3",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Module A-1",
+      "kind": "work"
+    },
+    {
+      "id": "C3-sultan-02",
+      "day": "C3",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "12:30",
+      "title": "Module B / C / D / E (rotation — depends on group)",
+      "kind": "work"
+    },
+    {
+      "id": "C3-sultan-03",
+      "day": "C3",
+      "person": "sultan",
+      "start": "12:00",
+      "end": "14:30",
+      "title": "Module A-2",
+      "kind": "work"
+    },
+    {
+      "id": "C3-sultan-04",
+      "day": "C3",
+      "person": "sultan",
+      "start": "14:15",
+      "end": "17:45",
+      "title": "Module B / C / D / E (rotation — depends on group; B ends 17:30)",
+      "kind": "work"
+    },
+    {
+      "id": "C3-sultan-05",
+      "day": "C3",
+      "person": "sultan",
+      "start": "15:00",
+      "end": "17:30",
+      "title": "Module A-3",
+      "kind": "work"
+    },
+    {
+      "id": "C3-sultan-06",
+      "day": "C3",
+      "person": "sultan",
+      "start": "17:45",
+      "end": "17:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-mansoor-01",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competitors to arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-mansoor-02",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Compatriot Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-mansoor-03",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "09:15",
+      "end": "09:30",
+      "title": "Test Project briefing - Modification and Measurement (M&M)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-mansoor-04",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "09:30",
+      "end": "13:00",
+      "title": "M&M Test Project",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mansoor-05",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "13:30",
+      "end": "15:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-mansoor-06",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-mansoor-07",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "14:30",
+      "end": "15:00",
+      "title": "Competitors examine their milled boards for defects",
+      "kind": "other"
+    },
+    {
+      "id": "C3-mansoor-08",
+      "day": "C3",
+      "person": "mansoor",
+      "start": "15:30",
+      "end": "15:30",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-shahad-h-01",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors Arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-shahad-h-02",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-shahad-h-03",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Test Project Module Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-shahad-h-04",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Module Reading and Q&A",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-shahad-h-05",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "09:15",
+      "end": "12:15",
+      "title": "Test Project Module E",
+      "kind": "work"
+    },
+    {
+      "id": "C3-shahad-h-06",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "14:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-shahad-h-07",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-shahad-h-08",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "14:00",
+      "end": "14:15",
+      "title": "Test Project Module Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-shahad-h-09",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "14:15",
+      "end": "14:30",
+      "title": "Module Reading and Q&A",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-shahad-h-10",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "14:35",
+      "end": "17:35",
+      "title": "Test Project Module F",
+      "kind": "work"
+    },
+    {
+      "id": "C3-shahad-h-11",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "17:35",
+      "end": "17:45",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-shahad-h-12",
+      "day": "C3",
+      "person": "shahad-h",
+      "start": "17:45",
+      "end": "17:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-ibrahim-01",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "08:30",
+      "end": "08:35",
+      "title": "Competitors arrival",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-ibrahim-02",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "08:35",
+      "end": "08:50",
+      "title": "Open communication (15 min Competitor/Expert)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-ibrahim-03",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "08:50",
+      "end": "09:05",
+      "title": "Hand out test project to competitors (15 min)",
+      "kind": "work"
+    },
+    {
+      "id": "C3-ibrahim-04",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "09:05",
+      "end": "09:10",
+      "title": "Competitors to review at new equipment/materials prepare tools …",
+      "kind": "other"
+    },
+    {
+      "id": "C3-ibrahim-05",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "09:10",
+      "end": "09:15",
+      "title": "Toolbox check by experts verifying no additional tools brought in",
+      "kind": "other"
+    },
+    {
+      "id": "C3-ibrahim-06",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "09:15",
+      "end": "09:15",
+      "title": "Competitors begin",
+      "kind": "work"
+    },
+    {
+      "id": "C3-ibrahim-07",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Group 1 lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-ibrahim-08",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "13:00",
+      "end": "14:00",
+      "title": "Group 2 lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-ibrahim-09",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "13:30",
+      "end": "16:15",
+      "title": "Group 1 back to work",
+      "kind": "work"
+    },
+    {
+      "id": "C3-ibrahim-10",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "14:00",
+      "end": "16:15",
+      "title": "Group 2 back to work",
+      "kind": "work"
+    },
+    {
+      "id": "C3-ibrahim-11",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "16:15",
+      "end": "16:15",
+      "title": "Finish",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-ibrahim-12",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "16:15",
+      "end": "16:30",
+      "title": "Tidy up work area (15min)",
+      "kind": "other"
+    },
+    {
+      "id": "C3-ibrahim-13",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "16:30",
+      "end": "16:45",
+      "title": "Open communication (15min) Collect competition documentation",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-ibrahim-14",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitors out of competition site",
+      "kind": "leave"
+    },
+    {
+      "id": "C3-ibrahim-15",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "16:45",
+      "end": "21:00",
+      "title": "Day 3 marking (Wiring installation work)",
+      "kind": "other"
+    },
+    {
+      "id": "C3-ibrahim-16",
+      "day": "C3",
+      "person": "ibrahim",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-shahad-m-01",
+      "day": "C3",
+      "person": "shahad-m",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-hanadi-01",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-hanadi-02",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-hanadi-03",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "C3 Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-hanadi-04",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-hanadi-05",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C3-hanadi-06",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C3-hanadi-07",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-hanadi-08",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-hanadi-09",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "13:30",
+      "end": "16:00",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C3-hanadi-10",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C3-hanadi-11",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of Competition - Competitors leave competition area",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-hanadi-12",
+      "day": "C3",
+      "person": "hanadi",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-maryam-01",
+      "day": "C3",
+      "person": "maryam",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-maryam-02",
+      "day": "C3",
+      "person": "maryam",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-maryam-03",
+      "day": "C3",
+      "person": "maryam",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "C3 Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-maryam-04",
+      "day": "C3",
+      "person": "maryam",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-maryam-05",
+      "day": "C3",
+      "person": "maryam",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C3-maryam-06",
+      "day": "C3",
+      "person": "maryam",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C3-maryam-07",
+      "day": "C3",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-maryam-08",
+      "day": "C3",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-maryam-09",
+      "day": "C3",
+      "person": "maryam",
+      "start": "13:30",
+      "end": "16:00",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C3-maryam-10",
+      "day": "C3",
+      "person": "maryam",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C3-maryam-11",
+      "day": "C3",
+      "person": "maryam",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of Competition - Competitors leave competition area",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-maryam-12",
+      "day": "C3",
+      "person": "maryam",
+      "start": "16:45",
+      "end": "16:45",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-saood-01",
+      "day": "C3",
+      "person": "saood",
+      "start": "08:00",
+      "end": "08:00",
+      "title": "Competitors arrive on site",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-saood-02",
+      "day": "C3",
+      "person": "saood",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Expert and Competitor communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-saood-03",
+      "day": "C3",
+      "person": "saood",
+      "start": "08:35",
+      "end": "10:45",
+      "title": "Competition Round 1",
+      "kind": "work"
+    },
+    {
+      "id": "C3-saood-04",
+      "day": "C3",
+      "person": "saood",
+      "start": "11:10",
+      "end": "13:20",
+      "title": "Competition Round 2",
+      "kind": "work"
+    },
+    {
+      "id": "C3-saood-05",
+      "day": "C3",
+      "person": "saood",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-saood-06",
+      "day": "C3",
+      "person": "saood",
+      "start": "13:20",
+      "end": "14:20",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-saood-07",
+      "day": "C3",
+      "person": "saood",
+      "start": "14:20",
+      "end": "16:30",
+      "title": "Competition Round 3",
+      "kind": "work"
+    },
+    {
+      "id": "C3-saood-08",
+      "day": "C3",
+      "person": "saood",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-saood-09",
+      "day": "C3",
+      "person": "saood",
+      "start": "16:40",
+      "end": "18:50",
+      "title": "Competition Round 4",
+      "kind": "work"
+    },
+    {
+      "id": "C3-saood-10",
+      "day": "C3",
+      "person": "saood",
+      "start": "18:50",
+      "end": "19:00",
+      "title": "Competitors leave site",
+      "kind": "leave"
+    },
+    {
+      "id": "C3-mais-01",
+      "day": "C3",
+      "person": "mais",
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Module C (Competitors 7-8-9)",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mais-02",
+      "day": "C3",
+      "person": "mais",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-mais-03",
+      "day": "C3",
+      "person": "mais",
+      "start": "13:30",
+      "end": "15:00",
+      "title": "Module G",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mais-04",
+      "day": "C3",
+      "person": "mais",
+      "start": "15:30",
+      "end": "16:30",
+      "title": "Module C (Competitors 19-20-21)",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mais-05",
+      "day": "C3",
+      "person": "mais",
+      "start": "15:30",
+      "end": "18:00",
+      "title": "Module F2",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mais-06",
+      "day": "C3",
+      "person": "mais",
+      "start": "18:00",
+      "end": "18:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-mariam-01",
+      "day": "C3",
+      "person": "mariam",
+      "start": "08:00",
+      "end": "08:05",
+      "title": "Arrival",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-mariam-02",
+      "day": "C3",
+      "person": "mariam",
+      "start": "08:05",
+      "end": "08:25",
+      "title": "Competitors enter the Workshop",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-mariam-03",
+      "day": "C3",
+      "person": "mariam",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Test project reading and briefing / questions",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-mariam-04",
+      "day": "C3",
+      "person": "mariam",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-mariam-05",
+      "day": "C3",
+      "person": "mariam",
+      "start": "09:30",
+      "end": "12:00",
+      "title": "Competition starts with the editorial module",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mariam-06",
+      "day": "C3",
+      "person": "mariam",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-mariam-07",
+      "day": "C3",
+      "person": "mariam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-mariam-08",
+      "day": "C3",
+      "person": "mariam",
+      "start": "13:30",
+      "end": "17:00",
+      "title": "2nd part of Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mariam-09",
+      "day": "C3",
+      "person": "mariam",
+      "start": "17:15",
+      "end": "17:30",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-mariam-10",
+      "day": "C3",
+      "person": "mariam",
+      "start": "17:30",
+      "end": "17:35",
+      "title": "Competitors are leaving the workshop.",
+      "kind": "leave"
+    },
+    {
+      "id": "C3-mariam-11",
+      "day": "C3",
+      "person": "mariam",
+      "start": "17:30",
+      "end": "17:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-jenan-01",
+      "day": "C3",
+      "person": "jenan",
+      "start": "08:30",
+      "end": "20:45",
+      "title": "Care zones — Hospital / Residential Care / Day Care / Home Care (rotation; Hospital & Residential end 19:45)",
+      "kind": "work"
+    },
+    {
+      "id": "C3-jenan-02",
+      "day": "C3",
+      "person": "jenan",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-jenan-03",
+      "day": "C3",
+      "person": "jenan",
+      "start": "19:15",
+      "end": "19:15",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-leen-01",
+      "day": "C3",
+      "person": "leen",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Arrival of Competitors",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-leen-02",
+      "day": "C3",
+      "person": "leen",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Compatriot Communication with Expert (15minutes)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-leen-03",
+      "day": "C3",
+      "person": "leen",
+      "start": "09:00",
+      "end": "12:00",
+      "title": "Competition Commences Module 3: Prototyping",
+      "kind": "work"
+    },
+    {
+      "id": "C3-leen-04",
+      "day": "C3",
+      "person": "leen",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Lunch and Rest",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-leen-05",
+      "day": "C3",
+      "person": "leen",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-leen-06",
+      "day": "C3",
+      "person": "leen",
+      "start": "13:00",
+      "end": "16:00",
+      "title": "Competition Commences Module 3 Continuation",
+      "kind": "work"
+    },
+    {
+      "id": "C3-leen-07",
+      "day": "C3",
+      "person": "leen",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Leave workshop",
+      "kind": "leave"
+    },
+    {
+      "id": "C3-leen-08",
+      "day": "C3",
+      "person": "leen",
+      "start": "16:00",
+      "end": "16:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C3-norah-01",
+      "day": "C3",
+      "person": "norah",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-norah-02",
+      "day": "C3",
+      "person": "norah",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competition area open. Competitors may enter",
+      "kind": "arrival"
+    },
+    {
+      "id": "C3-norah-03",
+      "day": "C3",
+      "person": "norah",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Daily Briefing - Module 4 & 2",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-norah-04",
+      "day": "C3",
+      "person": "norah",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Open Comms (Experts talk with Competitors)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-norah-05",
+      "day": "C3",
+      "person": "norah",
+      "start": "08:45",
+      "end": "11:45",
+      "title": "Module 4 - Advanced Piloting and Vision Skills Starts and Module 2 -…",
+      "kind": "work"
+    },
+    {
+      "id": "C3-norah-06",
+      "day": "C3",
+      "person": "norah",
+      "start": "11:45",
+      "end": "13:15",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-norah-07",
+      "day": "C3",
+      "person": "norah",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C3-norah-08",
+      "day": "C3",
+      "person": "norah",
+      "start": "13:15",
+      "end": "17:00",
+      "title": "Module 4 - Advanced Piloting and Vision Skills Cont and Module 2 -…",
+      "kind": "work"
+    },
+    {
+      "id": "C3-norah-09",
+      "day": "C3",
+      "person": "norah",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitors leave the competition area",
+      "kind": "leave"
+    },
+    {
+      "id": "C3-norah-10",
+      "day": "C3",
+      "person": "norah",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-maitha-01",
+      "day": "C4",
+      "person": "maitha",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Reception",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-maitha-02",
+      "day": "C4",
+      "person": "maitha",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "General Briefing (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-maitha-03",
+      "day": "C4",
+      "person": "maitha",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Expert/Competitor (Open Comunication)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-maitha-04",
+      "day": "C4",
+      "person": "maitha",
+      "start": "09:00",
+      "end": "11:00",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C4-maitha-05",
+      "day": "C4",
+      "person": "maitha",
+      "start": "11:00",
+      "end": "11:15",
+      "title": "Break",
+      "kind": "break"
+    },
+    {
+      "id": "C4-maitha-06",
+      "day": "C4",
+      "person": "maitha",
+      "start": "11:15",
+      "end": "13:15",
+      "title": "Competition",
+      "kind": "work"
+    },
+    {
+      "id": "C4-maitha-07",
+      "day": "C4",
+      "person": "maitha",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-maitha-08",
+      "day": "C4",
+      "person": "maitha",
+      "start": "13:15",
+      "end": "13:30",
+      "title": "Printing and Backup Files",
+      "kind": "other"
+    },
+    {
+      "id": "C4-maitha-09",
+      "day": "C4",
+      "person": "maitha",
+      "start": "13:30",
+      "end": "14:30",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-maitha-10",
+      "day": "C4",
+      "person": "maitha",
+      "start": "14:30",
+      "end": "16:30",
+      "title": "Toolbox Packing",
+      "kind": "other"
+    },
+    {
+      "id": "C4-maitha-11",
+      "day": "C4",
+      "person": "maitha",
+      "start": "15:00",
+      "end": "15:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-essa-01",
+      "day": "C4",
+      "person": "essa",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "ALL competitors enter shop, change cloth",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-essa-02",
+      "day": "C4",
+      "person": "essa",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "CC with all Groups",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-essa-03",
+      "day": "C4",
+      "person": "essa",
+      "start": "08:45",
+      "end": "11:30",
+      "title": "Team Challange",
+      "kind": "work"
+    },
+    {
+      "id": "C4-essa-04",
+      "day": "C4",
+      "person": "essa",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Award Ceremony of Team-Challange",
+      "kind": "work"
+    },
+    {
+      "id": "C4-essa-05",
+      "day": "C4",
+      "person": "essa",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Clean Workstation ( All )",
+      "kind": "other"
+    },
+    {
+      "id": "C4-essa-06",
+      "day": "C4",
+      "person": "essa",
+      "start": "12:30",
+      "end": "13:45",
+      "title": "All Competitors Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-essa-07",
+      "day": "C4",
+      "person": "essa",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-essa-08",
+      "day": "C4",
+      "person": "essa",
+      "start": "12:30",
+      "end": "12:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-essa-09",
+      "day": "C4",
+      "person": "essa",
+      "start": "14:00",
+      "end": "17:00",
+      "title": "All Competitors Pack Tools",
+      "kind": "other"
+    },
+    {
+      "id": "C4-zayed-01",
+      "day": "C4",
+      "person": "zayed",
+      "start": "08:00",
+      "end": "12:00",
+      "title": "Complete Module 3 & 4",
+      "kind": "work"
+    },
+    {
+      "id": "C4-zayed-02",
+      "day": "C4",
+      "person": "zayed",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Expert/Competitor Brief",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-zayed-03",
+      "day": "C4",
+      "person": "zayed",
+      "start": "08:30",
+      "end": "12:00",
+      "title": "Work",
+      "kind": "work"
+    },
+    {
+      "id": "C4-zayed-04",
+      "day": "C4",
+      "person": "zayed",
+      "start": "13:00",
+      "end": "13:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-zayed-05",
+      "day": "C4",
+      "person": "zayed",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-sultan-01",
+      "day": "C4",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Module A-1",
+      "kind": "work"
+    },
+    {
+      "id": "C4-sultan-02",
+      "day": "C4",
+      "person": "sultan",
+      "start": "09:00",
+      "end": "12:30",
+      "title": "Module B / C / D / E (rotation — depends on group)",
+      "kind": "work"
+    },
+    {
+      "id": "C4-sultan-03",
+      "day": "C4",
+      "person": "sultan",
+      "start": "12:30",
+      "end": "12:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-mansoor-01",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competitors to arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-mansoor-02",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Compatriot Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-mansoor-03",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "09:15",
+      "end": "09:30",
+      "title": "Test Project briefing - Hardware Design (HWD) Phase 3: Assembly…",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-mansoor-04",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "10:00",
+      "end": "13:00",
+      "title": "HWD Phase 3: Assembly and Testing",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mansoor-05",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "13:30",
+      "end": "15:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-mansoor-06",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-mansoor-07",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Clean-up/packing",
+      "kind": "other"
+    },
+    {
+      "id": "C4-mansoor-08",
+      "day": "C4",
+      "person": "mansoor",
+      "start": "15:30",
+      "end": "15:30",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-shahad-h-01",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Competitors Arrive",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-shahad-h-02",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Test Project Module Briefing",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-shahad-h-03",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open Communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-shahad-h-04",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "Module Preparation",
+      "kind": "work"
+    },
+    {
+      "id": "C4-shahad-h-05",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "09:15",
+      "end": "12:15",
+      "title": "Test Project Module G",
+      "kind": "work"
+    },
+    {
+      "id": "C4-shahad-h-06",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Presentation of Module G",
+      "kind": "work"
+    },
+    {
+      "id": "C4-shahad-h-07",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "13:30",
+      "end": "13:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-shahad-h-08",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "13:45",
+      "end": "15:00",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-shahad-h-09",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "14:30",
+      "end": "15:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-shahad-h-10",
+      "day": "C4",
+      "person": "shahad-h",
+      "start": "15:00",
+      "end": "15:00",
+      "title": "Competitor Finish Time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-ibrahim-01",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "08:30",
+      "end": "08:35",
+      "title": "Competitors arrival",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-ibrahim-02",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "08:35",
+      "end": "08:50",
+      "title": "Open communication (15 min Competitor/Expert)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-ibrahim-03",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "08:50",
+      "end": "09:05",
+      "title": "Hand out test project to competitors (15 min)",
+      "kind": "work"
+    },
+    {
+      "id": "C4-ibrahim-04",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "09:05",
+      "end": "09:10",
+      "title": "Competitors review new equipment/materials prepare tools …",
+      "kind": "other"
+    },
+    {
+      "id": "C4-ibrahim-05",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "09:10",
+      "end": "09:15",
+      "title": "Toolbox check by experts verifying no additional tools brought in",
+      "kind": "other"
+    },
+    {
+      "id": "C4-ibrahim-06",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "09:15",
+      "end": "13:15",
+      "title": "Competitors begin",
+      "kind": "work"
+    },
+    {
+      "id": "C4-ibrahim-07",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "12:00",
+      "end": "12:00",
+      "title": "Finish",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-ibrahim-08",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "12:00",
+      "end": "13:00",
+      "title": "Up to 30 mins of additional time where required due to time lost",
+      "kind": "other"
+    },
+    {
+      "id": "C4-ibrahim-09",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "13:15",
+      "end": "14:15",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-ibrahim-10",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "14:15",
+      "end": "14:30",
+      "title": "Congratulate and take farewell of competitors",
+      "kind": "other"
+    },
+    {
+      "id": "C4-ibrahim-11",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "14:30",
+      "end": "14:45",
+      "title": "Packing of toolboxes",
+      "kind": "other"
+    },
+    {
+      "id": "C4-ibrahim-12",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "14:45",
+      "end": "15:00",
+      "title": "Tidy up",
+      "kind": "other"
+    },
+    {
+      "id": "C4-ibrahim-13",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "15:00",
+      "end": "15:30",
+      "title": "Competitors out of competition site",
+      "kind": "leave"
+    },
+    {
+      "id": "C4-ibrahim-14",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "15:00",
+      "end": "22:00",
+      "title": "Day 4 marking (Programming and testing and functionality)",
+      "kind": "other"
+    },
+    {
+      "id": "C4-ibrahim-15",
+      "day": "C4",
+      "person": "ibrahim",
+      "start": "15:00",
+      "end": "15:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-shahad-m-01",
+      "day": "C4",
+      "person": "shahad-m",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-hanadi-01",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-hanadi-02",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-hanadi-03",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Briefing C4",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-hanadi-04",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-hanadi-05",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C4-hanadi-06",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C4-hanadi-07",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-hanadi-08",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-hanadi-09",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "13:30",
+      "end": "16:00",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C4-hanadi-10",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C4-hanadi-11",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of Competition",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-hanadi-12",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "16:30",
+      "end": "17:00",
+      "title": "Cleaning and Packing of Toolboxes, change exchange experiences",
+      "kind": "other"
+    },
+    {
+      "id": "C4-hanadi-13",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitors leaving competition area",
+      "kind": "leave"
+    },
+    {
+      "id": "C4-hanadi-14",
+      "day": "C4",
+      "person": "hanadi",
+      "start": "18:30",
+      "end": "18:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-maryam-01",
+      "day": "C4",
+      "person": "maryam",
+      "start": "08:00",
+      "end": "08:20",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-maryam-02",
+      "day": "C4",
+      "person": "maryam",
+      "start": "08:20",
+      "end": "08:30",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-maryam-03",
+      "day": "C4",
+      "person": "maryam",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Briefing C4",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-maryam-04",
+      "day": "C4",
+      "person": "maryam",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Open communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-maryam-05",
+      "day": "C4",
+      "person": "maryam",
+      "start": "09:00",
+      "end": "11:30",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C4-maryam-06",
+      "day": "C4",
+      "person": "maryam",
+      "start": "11:30",
+      "end": "12:00",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C4-maryam-07",
+      "day": "C4",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "13:30",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-maryam-08",
+      "day": "C4",
+      "person": "maryam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-maryam-09",
+      "day": "C4",
+      "person": "maryam",
+      "start": "13:30",
+      "end": "16:00",
+      "title": "Rotation Modules",
+      "kind": "work"
+    },
+    {
+      "id": "C4-maryam-10",
+      "day": "C4",
+      "person": "maryam",
+      "start": "16:00",
+      "end": "16:30",
+      "title": "Evaluation",
+      "kind": "work"
+    },
+    {
+      "id": "C4-maryam-11",
+      "day": "C4",
+      "person": "maryam",
+      "start": "16:30",
+      "end": "16:30",
+      "title": "End of Competition",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-maryam-12",
+      "day": "C4",
+      "person": "maryam",
+      "start": "16:30",
+      "end": "17:00",
+      "title": "Cleaning and Packing of Toolboxes, change exchange experiences",
+      "kind": "other"
+    },
+    {
+      "id": "C4-maryam-13",
+      "day": "C4",
+      "person": "maryam",
+      "start": "17:00",
+      "end": "17:00",
+      "title": "Competitors leaving competition area",
+      "kind": "leave"
+    },
+    {
+      "id": "C4-maryam-14",
+      "day": "C4",
+      "person": "maryam",
+      "start": "18:30",
+      "end": "18:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-saood-01",
+      "day": "C4",
+      "person": "saood",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competitors arrive on site",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-saood-02",
+      "day": "C4",
+      "person": "saood",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Expert and Competitor communication",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-saood-03",
+      "day": "C4",
+      "person": "saood",
+      "start": "08:35",
+      "end": "10:45",
+      "title": "Competition Round 1",
+      "kind": "work"
+    },
+    {
+      "id": "C4-saood-04",
+      "day": "C4",
+      "person": "saood",
+      "start": "11:10",
+      "end": "13:20",
+      "title": "Competition Round 2",
+      "kind": "work"
+    },
+    {
+      "id": "C4-saood-05",
+      "day": "C4",
+      "person": "saood",
+      "start": "13:25",
+      "end": "14:25",
+      "title": "Lunch",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-saood-06",
+      "day": "C4",
+      "person": "saood",
+      "start": "13:30",
+      "end": "14:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-saood-07",
+      "day": "C4",
+      "person": "saood",
+      "start": "13:30",
+      "end": "13:30",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-saood-08",
+      "day": "C4",
+      "person": "saood",
+      "start": "14:30",
+      "end": "15:30",
+      "title": "Competitor debrief and photos",
+      "kind": "other"
+    },
+    {
+      "id": "C4-saood-09",
+      "day": "C4",
+      "person": "saood",
+      "start": "15:30",
+      "end": "15:30",
+      "title": "Competitors leave site",
+      "kind": "leave"
+    },
+    {
+      "id": "C4-mais-01",
+      "day": "C4",
+      "person": "mais",
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Module C (Competitors 22-23-24)",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mais-02",
+      "day": "C4",
+      "person": "mais",
+      "start": "08:30",
+      "end": "10:30",
+      "title": "Module H",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mais-03",
+      "day": "C4",
+      "person": "mais",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "Module I",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mais-04",
+      "day": "C4",
+      "person": "mais",
+      "start": "12:30",
+      "end": "13:30",
+      "title": "Module C (Competitors 10-11-12)",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mais-05",
+      "day": "C4",
+      "person": "mais",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-mais-06",
+      "day": "C4",
+      "person": "mais",
+      "start": "15:00",
+      "end": "16:00",
+      "title": "Module E",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mais-07",
+      "day": "C4",
+      "person": "mais",
+      "start": "16:00",
+      "end": "16:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-mariam-01",
+      "day": "C4",
+      "person": "mariam",
+      "start": "08:00",
+      "end": "08:25",
+      "title": "Competitors enter the Workshop",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-mariam-02",
+      "day": "C4",
+      "person": "mariam",
+      "start": "08:30",
+      "end": "09:00",
+      "title": "Test project reading and briefing / questions",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-mariam-03",
+      "day": "C4",
+      "person": "mariam",
+      "start": "09:00",
+      "end": "09:15",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-mariam-04",
+      "day": "C4",
+      "person": "mariam",
+      "start": "09:30",
+      "end": "13:30",
+      "title": "Competition starts with the advertising module",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mariam-05",
+      "day": "C4",
+      "person": "mariam",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-mariam-06",
+      "day": "C4",
+      "person": "mariam",
+      "start": "13:15",
+      "end": "13:30",
+      "title": "15 minutes of open communication between experts and competitors",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-mariam-07",
+      "day": "C4",
+      "person": "mariam",
+      "start": "13:30",
+      "end": "13:45",
+      "title": "End of Competition with extra time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-mariam-08",
+      "day": "C4",
+      "person": "mariam",
+      "start": "14:00",
+      "end": "14:15",
+      "title": "Lunch on site",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-mariam-09",
+      "day": "C4",
+      "person": "mariam",
+      "start": "14:15",
+      "end": "14:30",
+      "title": "Competitors to complete survey",
+      "kind": "other"
+    },
+    {
+      "id": "C4-mariam-10",
+      "day": "C4",
+      "person": "mariam",
+      "start": "14:30",
+      "end": "15:00",
+      "title": "Foto session",
+      "kind": "other"
+    },
+    {
+      "id": "C4-mariam-11",
+      "day": "C4",
+      "person": "mariam",
+      "start": "15:00",
+      "end": "15:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-mariam-12",
+      "day": "C4",
+      "person": "mariam",
+      "start": "15:05",
+      "end": "15:10",
+      "title": "Competitors are leaving the workshop.",
+      "kind": "leave"
+    },
+    {
+      "id": "C4-jenan-01",
+      "day": "C4",
+      "person": "jenan",
+      "start": "08:30",
+      "end": "20:45",
+      "title": "Care zones — Hospital / Residential Care / Day Care / Home Care (rotation; Hospital & Residential end 19:45)",
+      "kind": "work"
+    },
+    {
+      "id": "C4-jenan-02",
+      "day": "C4",
+      "person": "jenan",
+      "start": "12:30",
+      "end": "13:00",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-jenan-03",
+      "day": "C4",
+      "person": "jenan",
+      "start": "19:15",
+      "end": "19:15",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-leen-01",
+      "day": "C4",
+      "person": "leen",
+      "start": "08:00",
+      "end": "08:30",
+      "title": "Arrival of Competitors",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-leen-02",
+      "day": "C4",
+      "person": "leen",
+      "start": "08:45",
+      "end": "09:00",
+      "title": "Compatriot Communication with Expert (15minutes)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-leen-03",
+      "day": "C4",
+      "person": "leen",
+      "start": "09:00",
+      "end": "11:00",
+      "title": "Competition Commences Module 4: Design Proposal",
+      "kind": "work"
+    },
+    {
+      "id": "C4-leen-04",
+      "day": "C4",
+      "person": "leen",
+      "start": "11:00",
+      "end": "12:00",
+      "title": "Lunch and Rest",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-leen-05",
+      "day": "C4",
+      "person": "leen",
+      "start": "11:00",
+      "end": "11:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-leen-06",
+      "day": "C4",
+      "person": "leen",
+      "start": "12:00",
+      "end": "14:00",
+      "title": "Competition Commences Module 5: Design Promotion",
+      "kind": "work"
+    },
+    {
+      "id": "C4-leen-07",
+      "day": "C4",
+      "person": "leen",
+      "start": "14:00",
+      "end": "15:00",
+      "title": "Leave workshop",
+      "kind": "leave"
+    },
+    {
+      "id": "C4-leen-08",
+      "day": "C4",
+      "person": "leen",
+      "start": "14:00",
+      "end": "14:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-norah-01",
+      "day": "C4",
+      "person": "norah",
+      "start": "07:30",
+      "end": "08:00",
+      "title": "Competitors arrive at the competition venue",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-norah-02",
+      "day": "C4",
+      "person": "norah",
+      "start": "08:00",
+      "end": "08:15",
+      "title": "Competitors enter the competition area",
+      "kind": "arrival"
+    },
+    {
+      "id": "C4-norah-03",
+      "day": "C4",
+      "person": "norah",
+      "start": "08:15",
+      "end": "08:30",
+      "title": "Daily Briefing - Module 6",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-norah-04",
+      "day": "C4",
+      "person": "norah",
+      "start": "08:30",
+      "end": "08:45",
+      "title": "Open Comms (Experts talk with Competitors)",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-norah-05",
+      "day": "C4",
+      "person": "norah",
+      "start": "08:45",
+      "end": "11:45",
+      "title": "Module 6 - Operation Challenge",
+      "kind": "work"
+    },
+    {
+      "id": "C4-norah-06",
+      "day": "C4",
+      "person": "norah",
+      "start": "11:45",
+      "end": "13:15",
+      "title": "Lunch Time",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-norah-07",
+      "day": "C4",
+      "person": "norah",
+      "start": "12:00",
+      "end": "12:30",
+      "title": "Allocated Lunch time",
+      "kind": "allocated-lunch"
+    },
+    {
+      "id": "C4-norah-08",
+      "day": "C4",
+      "person": "norah",
+      "start": "13:15",
+      "end": "14:00",
+      "title": "Module 6 - Operation Challenge Cont",
+      "kind": "work"
+    },
+    {
+      "id": "C4-norah-09",
+      "day": "C4",
+      "person": "norah",
+      "start": "14:00",
+      "end": "14:00",
+      "title": "Competition Ends",
+      "kind": "finish"
+    },
+    {
+      "id": "C4-norah-10",
+      "day": "C4",
+      "person": "norah",
+      "start": "14:00",
+      "end": "14:30",
+      "title": "Closing remarks and group photo",
+      "kind": "other"
+    },
+    {
+      "id": "C4-norah-11",
+      "day": "C4",
+      "person": "norah",
+      "start": "14:00",
+      "end": "14:00",
+      "title": "Competitor Finish time",
+      "kind": "finish"
+    }
+  ],
+  "noTimetable": [
+    {
+      "day": "C-2",
+      "person": "sultan"
+    },
+    {
+      "day": "C-2",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C-2",
+      "person": "saood"
+    },
+    {
+      "day": "C-2",
+      "person": "mais"
+    },
+    {
+      "day": "C2",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C3",
+      "person": "zayed"
+    },
+    {
+      "day": "C3",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C4",
+      "person": "shahad-m"
+    }
+  ],
+  "generatedAt": "2026-09-16T16:37:27.154Z"
+}

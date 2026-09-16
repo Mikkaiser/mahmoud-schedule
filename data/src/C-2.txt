@@ -1,0 +1,151 @@
+# C-2 — Familiarization day (Mon 21 Sep 2026)
+# Format: "@person-id" starts a block; then "HH:MM-HH:MM Title" lines.
+# A person with only "Allocated Lunch time" (or absent) is shown as "no timetable published".
+
+@maitha
+08:15-08:30 Reception
+08:30-12:30 Competitors Familiarization
+12:30-13:30 Lunch
+13:00-13:30 Allocated Lunch time
+13:30-17:00 Competitors Familiarization
+17:00-17:15 Competitors Familiarization Agreement
+
+@essa
+08:15-08:30 Competitors enter shop, greeting by compatriot expert, change clothes
+08:30-09:45 Briefing on Agenda and Rules and expectations
+09:45-10:45 Unpack Tools / Drawing of Workstation / Setup Workstation
+10:45-11:00 15 min walk to Restaurant
+11:00-11:45 Lunch
+11:00-11:30 Allocated Lunch time
+11:45-12:00 15 min walk to competition site
+12:00-18:30 Familiarization - Rotation as per handout
+18:30-18:45 Clean up
+18:45-19:15 Review / Clarifications / Q&A
+19:15-20:30 Dinner @ Restaurant ???
+
+@zayed
+08:00-09:00 Health & Safety Presentation
+10:00-13:00 Familiarisation in Quiet Room
+13:00-13:30 Allocated Lunch time
+14:30-19:30 Familiarisation in Workshop
+
+@mansoor
+08:30-08:45 Welcome the Competitors
+09:00-09:15 Health, Safety, and Environment orientation in the workshop
+10:00-12:00 Familiarization for Competitors - Testing HW and SW
+12:00-13:00 Lunch
+12:00-12:30 Allocated Lunch time
+13:15-17:15 Familiarization for Competitors - Testing HW and SW continues
+17:15-17:15 Competitor Finish Time
+17:30-17:30 Competitors Sign Familiarization Agreement
+
+@shahad-h
+08:15-08:30 Competitors arrive
+08:30-10:30 Welcome Competitors
+10:30-12:30 Competitor Familiarization
+12:30-14:00 Lunch
+12:30-13:00 Allocated Lunch time
+14:00-18:00 Competitor Familiarization
+
+@ibrahim
+08:30-08:45 Welcome all competitors to the work area for the Electrical Installations…
+08:45-09:00 Competitor Passport check
+09:00-09:10 Circulation of time tables to competitors
+09:10-09:20 Competitors to be briefed on Fairness and transparency and sig…
+09:20-09:30 Competitors to be briefed on Health and Safety issues and sign off on…
+09:30-10:30 WSS to demonstrate use of equipment and materials where…
+10:30-11:00 Competitors to unpack equipment and tools and verify against…
+11:00-12:30 Toolbox check by experts no additional tools or equipment allowed
+12:30-13:30 Lunch
+13:30-14:30 Competitors familiarise and practice with materials while being supervis…
+15:30-15:45 Break
+15:30-15:45 Competitors familiarise and practice with materials while being supervis…
+18:30-18:45 Tidy up
+18:45-19:00 Open discussion and Competitor familiarization agreement, Collect…
+
+@shahad-m
+12:00-12:30 Allocated Lunch time
+
+@hanadi
+08:00-08:20 Competitors arrive at the competition venue
+08:20-08:30 Competitors enter the competition area
+08:30-09:00 Competitors ID check
+09:00-09:15 Welcome/Competition Introduction
+09:15-09:30 Safety Presentation
+09:30-09:45 Introduction to the AMR area and layout
+09:45-10:00 Presentation of the Competition timetable
+10:30-11:00 Competitor workstation allocation
+11:00-11:30 Competitor Toolbox Inspection
+11:30-12:00 Weighing 3D Printed parts, Sheet Size & Cable inspection, USB stick…
+12:00-13:00 Lunch Time
+12:00-12:30 Allocated Lunch time
+13:00-18:00 Robot preparation, Laptop preparation
+18:00-18:10 End of familiarization
+18:10-18:30 Signing of Familiarization Agreement
+18:30-19:00 Competitors leave the competition area
+
+@maryam
+08:00-08:20 Competitors arrive at the competition venue
+08:20-08:30 Competitors enter the competition area
+08:30-09:00 Competitors ID check
+09:00-09:15 Welcome/Competition Introduction
+09:15-09:30 Safety Presentation
+09:30-09:45 Introduction to the AMR area and layout
+09:45-10:00 Presentation of the Competition timetable
+10:30-11:00 Competitor workstation allocation
+11:00-11:30 Competitor Toolbox Inspection
+11:30-12:00 Weighing 3D Printed parts, Sheet Size & Cable inspection, USB stick…
+12:00-13:00 Lunch Time
+12:00-12:30 Allocated Lunch time
+13:00-18:00 Robot preparation, Laptop preparation
+18:00-18:10 End of familiarization
+18:10-18:30 Signing of Familiarization Agreement
+18:30-19:00 Competitors leave the competition area
+
+@saood
+12:30-13:00 Allocated Lunch time
+
+@mariam
+09:00-17:00 Familiarization for Competitors - (Preparation of workstations, Healt…
+
+@jenan
+08:15-08:30 Arrival of Competitors and Welcome
+08:30-08:45 Orientation to Health, Safety & Environment Policy & Sign Off
+08:45-10:00 Welcome Competitors- 1. Fairness and Transparency Poster & Signing…
+10:15-11:15 Verification of Documents
+11:15-11:30 Random Chit Draw
+11:30-12:30 Lunch
+12:00-12:30 Allocated Lunch time
+12:30-13:00 Briefing of Site-layout, Rights and Responsibiltities, Work Flow…
+13:00-18:00 Familiarization of zones and VCOM Hands-on training
+18:15-18:30 Sign-off on Competitior Familiarization Agreement
+18:30-18:30 Competitors Leave the Venue
+
+@leen
+08:00-08:30 Arrival of Competitors
+08:10-08:30 Workshop Safety Training
+08:30-08:45 Draw lots for workplace allocation
+09:00-18:00 Familiarization
+09:30-10:00 Toolbox Check
+10:00-11:00 3D Printing Training
+11:00-11:30 Competitor Identity and Name Spell Check
+12:00-13:00 Lunch and Rest
+12:00-12:30 Allocated Lunch time
+17:30-18:00 Signing of Forms and Familiarization Agreement
+18:00-19:00 Leave workshop
+
+@norah
+08:00-08:20 Competitors arrive at the competition venue
+08:20-08:30 Competitors enter the competition area
+08:30-09:00 Competitors ID check
+09:00-09:15 Welcome/Competition Introduction
+09:15-09:30 Safety Presentation
+09:30-09:45 Introduction to the UAS area and layout
+09:45-10:00 Presentation of the Competitor timetable
+10:30-11:00 Competitor workstation allocation
+11:00-11:45 Competitor toolbox and computer inspection
+11:45-13:15 Lunch Time
+12:00-12:30 Allocated Lunch time
+13:15-13:45 Continue to setup work station and laptop software
+13:45-14:00 Signing of Familiarization Agreement
+14:00-14:00 Competitors leave the competition area

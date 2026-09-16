@@ -1,0 +1,21 @@
+# Deployment on mikaserver22 (see /root/server/architecture.md).
+# Runs the image built by GitHub Actions; deploy.sh pulls it when a new one is published.
+# No host port: nginx-proxy reaches the container over mahmoud-schedule-network.
+name: mahmoud-schedule
+
+services:
+  web:
+    image: ghcr.io/mikkaiser/mahmoud-schedule:latest
+    container_name: mahmoud-schedule-web
+    restart: always
+    env_file: .env
+    environment:
+      PORT: 8080
+    volumes:
+      - /root/server/db-volumes/mahmoud-schedule/store:/app/store
+    networks:
+      - mahmoud-schedule-network
+
+networks:
+  mahmoud-schedule-network:
+    external: true

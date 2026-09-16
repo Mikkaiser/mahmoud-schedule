@@ -1,0 +1,16 @@
+{
+  "name": "mahmoud-schedule",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WorldSkills Shanghai 2026 — UAE team schedule board",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "validate": "node scripts/validate-data.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

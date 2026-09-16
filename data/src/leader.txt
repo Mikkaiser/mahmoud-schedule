@@ -1,0 +1,14 @@
+# Mahmoud (team leader) — his own timetable.
+# Add lines under each day when his schedule arrives, same format as the competitor files:
+#   HH:MM-HH:MM Title
+# Blocks are keyed by day id. Keep the day headers even when empty.
+
+[C-2]
+
+[C1]
+
+[C2]
+
+[C3]
+
+[C4]

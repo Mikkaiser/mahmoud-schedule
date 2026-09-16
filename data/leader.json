@@ -1,0 +1,11 @@
+{
+  "people": [
+    {
+      "id": "mahmoud",
+      "name": "Mahmoud",
+      "skill": "Team Leader",
+      "role": "leader"
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,32 @@
+{
+  "event": {
+    "name": "WorldSkills Shanghai 2026",
+    "team": "United Arab Emirates",
+    "tz": "Asia/Shanghai"
+  },
+  "days": [
+    { "id": "C-2", "label": "C-2", "subtitle": "Familiarization", "date": "2026-09-21" },
+    { "id": "C1",  "label": "C1",  "subtitle": "Competition day 1", "date": "2026-09-23" },
+    { "id": "C2",  "label": "C2",  "subtitle": "Competition day 2", "date": "2026-09-24" },
+    { "id": "C3",  "label": "C3",  "subtitle": "Competition day 3", "date": "2026-09-25" },
+    { "id": "C4",  "label": "C4",  "subtitle": "Competition day 4", "date": "2026-09-26" }
+  ],
+  "people": [
+    { "id": "maitha",   "name": "Maitha Almessabi", "skill": "Mechanical Engineering CAD" },
+    { "id": "essa",     "name": "Essa Alnabhani",   "skill": "CNC Turning" },
+    { "id": "zayed",    "name": "Zayed Naser",      "skill": "Welding" },
+    { "id": "sultan",   "name": "Sultan Alwahedi",  "skill": "Aircraft Maintenance" },
+    { "id": "mansoor",  "name": "Mansoor Mansoori", "skill": "Electronics" },
+    { "id": "shahad-h", "name": "Shahad Alhammadi", "skill": "Web Technologies" },
+    { "id": "ibrahim",  "name": "Ibrahim Alsaffar", "skill": "Electrical Installations" },
+    { "id": "shahad-m", "name": "Shahad Almessabi", "skill": "Industrial Control" },
+    { "id": "hanadi",   "name": "Hanadi Aljeaidi",  "skill": "Autonomous Mobile Robotics" },
+    { "id": "maryam",   "name": "Maryam Alqarni",   "skill": "Autonomous Mobile Robotics" },
+    { "id": "saood",    "name": "Saood Almessabi",  "skill": "Automobile Technology" },
+    { "id": "mais",     "name": "Mais Barabbaa",    "skill": "Car Painting" },
+    { "id": "mariam",   "name": "Mariam Alhashmi",  "skill": "Graphic Design Technology" },
+    { "id": "jenan",    "name": "Jenan Almurshidi", "skill": "Health and Social Care" },
+    { "id": "leen",     "name": "Leen Ajja",        "skill": "Industrial Design Technology" },
+    { "id": "norah",    "name": "Norah Alhaqal",    "skill": "Unmanned Aerial Systems" }
+  ]
+}
