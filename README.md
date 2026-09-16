@@ -15,10 +15,10 @@ Live at **https://mahmoud-schedule.mikkaiser.com** — deliberately hidden from 
 ## What it shows
 
 **Board** — one row per person on an hour grid. A red line tracks the current Shanghai time and
-auto-scrolls into view. Teal blocks are competing time, amber is the skill's lunch break, and the
-thin amber outline under it is the team's *allocated* lunch slot, so a mismatch is visible without
-reading anything. Compact density (default) fits every competitor on a 12.9" iPad; "Show details"
-adds every briefing and admin item as its own block.
+auto-scrolls into view. Teal blocks are competing time; the solid amber block is the team's
+*allocated* lunch slot (when they actually go to the restaurant) and the dashed amber outline is the
+skill's own lunch break it has to fit inside, so a mismatch is visible without reading anything.
+"Compact" squeezes briefings and admin items into thin ticks so every competitor fits on a 12.9" iPad.
 
 **Now** — a card per person, sorted so whoever changes state soonest is on top: what they are doing,
 what comes next and in how many minutes, lunch vs. allocated (`fits` / `partly outside lunch` /

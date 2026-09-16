@@ -137,8 +137,8 @@ a { color: inherit; text-decoration: none; }
 .lg::before { content: ""; width: 14px; height: 10px; border-radius: 3px; background: var(--c); }
 .lg-work { --c: var(--work); }
 .lg-briefing { --c: var(--briefing); }
-.lg-lunch { --c: var(--lunch); }
-.lg-allocated::before { background: transparent; border: 2px solid var(--lunch); }
+.lg-allocated { --c: var(--lunch); }
+.lg-lunch::before { background: var(--lunch-soft); border: 1.5px dashed var(--lunch); }
 .lg-other { --c: var(--other); }
 .lg-finish::before { width: 3px; border-radius: 1px; background: var(--finish); }
 .lg-minor::before { height: 5px; width: 18px; background: var(--briefing); opacity: .8; }
@@ -216,7 +216,11 @@ a { color: inherit; text-decoration: none; }
 .ev .ev-t { color: var(--ink-2); font-weight: 500; }
 .ev-work { --c: var(--work); --soft: var(--work-soft); }
 .ev-briefing { --c: var(--briefing); --soft: var(--briefing-soft); }
-.ev-lunch { --c: var(--lunch); --soft: var(--lunch-soft); }
+.ev-allocated-lunch { --c: var(--lunch); --soft: var(--lunch); color: #1a1400; }
+.ev-allocated-lunch { padding: 0 4px; font-size: 11.5px; letter-spacing: -0.02em; }
+.ev-allocated-lunch .ev-t { color: #4a3a00; font-weight: 700; }
+.ev-lunch { --c: var(--lunch); --soft: var(--lunch-soft); border-left-style: dashed; }
+.ev-lunch::before { content: ""; position: absolute; inset: 0; border: 1.5px dashed var(--lunch); border-left: 0; border-radius: 0 var(--radius) var(--radius) 0; pointer-events: none; }
 .ev-break { --c: var(--break); --soft: var(--break-soft); }
 .ev-other, .ev-arrival, .ev-leave { --c: var(--other); --soft: var(--other-soft); }
 .ev.changed { box-shadow: inset 0 0 0 2px var(--now); }
@@ -251,12 +255,6 @@ a { color: inherit; text-decoration: none; }
   padding: 3px 8px; border-radius: 999px; z-index: 1;
 }
 .ev.tiny { padding: 0; }
-.alloc {
-  position: absolute; height: 10px; border-radius: 3px; padding: 0; border: 0;
-  background: transparent; box-shadow: inset 0 0 0 2px var(--lunch);
-}
-.alloc::after { content: ""; position: absolute; inset: -8px 0; }
-.alloc.changed { box-shadow: inset 0 0 0 2px var(--now); }
 .now-shade { position: absolute; top: 0; bottom: 0; left: 0; background: var(--paper-2); opacity: .55; z-index: 0; pointer-events: none; }
 
 /* ---------- now view ---------- */
@@ -276,7 +274,8 @@ a { color: inherit; text-decoration: none; }
 .card .fin .val.changed { color: var(--now); }
 .card .fin .val.done { color: var(--ink-3); text-decoration: line-through; }
 .card .line { grid-column: 1; display: flex; align-items: baseline; gap: 8px; min-width: 0; }
-.card .line .k { flex: none; width: 46px; color: var(--ink-3); font-size: 12px; }
+.card .line .k { flex: none; width: 66px; color: var(--ink-3); font-size: 12px; }
+.card .line.soft .v { font-weight: 500; color: var(--ink-2); }
 .card .line .v { font-weight: 600; min-width: 0; }
 .card .line.now .v, .card .line.next .v { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .card .line .v .t { color: var(--ink-2); font-weight: 500; }
@@ -329,7 +328,8 @@ a { color: inherit; text-decoration: none; }
 .tl li.k-briefing { --c: var(--briefing); }
 .tl li.k-lunch, .tl li.k-allocated-lunch, .tl li.k-break { --c: var(--lunch); }
 .tl li.k-finish { --c: var(--finish); }
-.tl li.k-allocated-lunch .bd { border-left-style: dashed; }
+.tl li.k-lunch .bd { border-left-style: dashed; }
+.tl li.k-allocated-lunch .bd { background: var(--lunch-soft); }
 
 /* ---------- sheet ---------- */
 .sheet-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 30; }

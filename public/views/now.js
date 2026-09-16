@@ -52,7 +52,7 @@ function card(p, evs, sum, nowMin, live) {
     if (sum.done) lines.push(line("Now", "Done for the day", "muted"));
     else if (sum.headline) {
       const h = sum.headline;
-      lines.push(line("Now", `${esc(h.title)} <span class="t">until ${fmt(h.e)}</span>`, "now" + (h.kind === "lunch" || h.kind === "break" ? " is-lunch" : "")));
+      lines.push(line("Now", `${esc(h.title)} <span class="t">until ${fmt(h.e)}</span>`, "now" + (["lunch", "allocated-lunch", "break"].includes(h.kind) ? " is-lunch" : "")));
     } else if (sum.next && sum.first && nowMin < sum.first.s) {
       lines.push(line("Now", `Not started <span class="t">· starts ${fmt(sum.first.s)}</span>`, "muted"));
     } else {
@@ -65,20 +65,20 @@ function card(p, evs, sum, nowMin, live) {
     lines.push(line("Start", `${esc(sum.first.title)} <span class="t">${fmt(sum.first.s)}</span>`));
   }
 
-  // Lunch line: the skill's lunch break vs the team's allocated slot.
+  // Lunch: the team's allocated slot is when they actually go; the skill's break is the window it must fit in.
+  if (sum.allocated) {
+    let v = `${fmt(sum.allocated.s)}–${fmt(sum.allocated.e)}`;
+    if (sum.allocated.changed) v += ' <span class="badge badge-changed">moved</span>';
+    if (sum.lunchMismatch === "none") v += ' <span class="badge badge-warn">outside skill break</span>';
+    else if (sum.lunchMismatch === "partial") v += ' <span class="badge badge-warn">partly outside break</span>';
+    else if (sum.lunch) v += ' <span class="badge badge-ok">fits</span>';
+    lines.push(line("Lunch", v));
+  }
   if (sum.lunches.length) {
     const v = sum.lunches
       .map((l) => `${fmt(l.s)}–${fmt(l.e)}${l.changed ? ' <span class="badge badge-changed">moved</span>' : ""}${sum.lunches.length > 1 ? ` <span class="t">${esc(groupLabel(l.title))}</span>` : ""}`)
       .join(" / ");
-    lines.push(line("Lunch", v));
-  }
-  if (sum.allocated) {
-    let v = `${fmt(sum.allocated.s)}–${fmt(sum.allocated.e)}`;
-    if (sum.allocated.changed) v += ' <span class="badge badge-changed">moved</span>';
-    if (sum.lunchMismatch === "none") v += ' <span class="badge badge-warn">outside lunch break</span>';
-    else if (sum.lunchMismatch === "partial") v += ' <span class="badge badge-warn">partly outside lunch</span>';
-    else if (sum.lunch) v += ' <span class="badge badge-ok">fits</span>';
-    lines.push(line("Alloc.", v));
+    lines.push(line("Skill break", v, "soft"));
   }
   if (!sum.lunches.length && !sum.allocated && evs.length) {
     lines.push(line("Lunch", "Not in timetable", "muted"));

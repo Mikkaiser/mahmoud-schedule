@@ -4,13 +4,13 @@ import { personDay, packLanes, groupPins, summarize } from "../lib/model.js";
 
 const MIN_PX_HOUR = 72;
 const DENSITY = {
-  detailed: { lane: 30, pinStrip: 16, allocStrip: 14, minRow: 60 },
-  compact: { lane: 26, pinStrip: 12, allocStrip: 12, minRow: 50 },
+  detailed: { lane: 30, pinStrip: 16, minRow: 60 },
+  compact: { lane: 26, pinStrip: 12, minRow: 50 },
 };
-const MAJOR = new Set(["work", "lunch", "break"]);
+const MAJOR = new Set(["work", "lunch", "allocated-lunch", "break"]);
 
 export function getDensity() {
-  try { return localStorage.getItem("density") === "detailed" ? "detailed" : "compact"; } catch { return "compact"; }
+  try { return localStorage.getItem("density") === "compact" ? "compact" : "detailed"; } catch { return "detailed"; }
 }
 export function setDensity(d) {
   try { localStorage.setItem("density", d); } catch {}
@@ -29,7 +29,7 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
   const dayEvents = events.filter((e) => e.day === day);
   const density = getDensity();
   const compact = density === "compact";
-  const { lane: LANE, pinStrip: PIN_STRIP, allocStrip: ALLOC_STRIP, minRow } = DENSITY[density];
+  const { lane: LANE, pinStrip: PIN_STRIP, minRow } = DENSITY[density];
 
   // Time axis: hour-rounded span of the day's data, at least 07:00–20:00.
   let minH = 7, maxH = 20;
@@ -66,16 +66,15 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
   for (const p of people) {
     const evs = personDay(dayEvents, day, p.id);
     const sum = summarize(evs, nowMin);
-    let blocks = evs.filter((e) => !e.point && e.kind !== "allocated-lunch");
+    let blocks = evs.filter((e) => !e.point);
     let minor = [];
     if (compact) {
       minor = blocks.filter((e) => !MAJOR.has(e.kind));
       blocks = dropContainers(blocks.filter((e) => MAJOR.has(e.kind)));
     }
-    const allocated = evs.filter((e) => e.kind === "allocated-lunch");
     const pins = groupPins(evs.filter((e) => e.point));
     const { placed, laneCount } = packLanes(blocks);
-    const rowH = Math.max(minRow, PIN_STRIP + laneCount * LANE + (allocated.length ? ALLOC_STRIP : 4));
+    const rowH = Math.max(minRow, PIN_STRIP + laneCount * LANE + 4);
     const isLeader = p.role === "leader";
 
     // Status line under the name.
@@ -112,23 +111,18 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
       const cls = ["ev", `ev-${ev.kind}`];
       if (ev.changed) cls.push("changed");
       if (nowMin != null && ev.e <= nowMin) cls.push("past");
-      if (nowMin != null && ev.s <= nowMin && nowMin < ev.e && ev.kind !== "allocated-lunch") cls.push("current");
-      const tiny = width < 58;
+      if (nowMin != null && ev.s <= nowMin && nowMin < ev.e) cls.push("current");
+      // The team lunch slot is only 30 min but is the block that matters most: label it whenever it fits.
+      const isAlloc = ev.kind === "allocated-lunch";
+      const tiny = width < (isAlloc ? 40 : 58);
       if (tiny) cls.push("tiny");
+      const label = isAlloc ? (width < 96 ? "" : "Lunch") : esc(ev.title);
       parts.push(
         `<button type="button" class="${cls.join(" ")}" data-id="${ev.id}"
                  style="left:${left}px;width:${width}px;top:${PIN_STRIP + lane * LANE + 2}px"
                  title="${esc(ev.title)} ${fmt(ev.s)}–${fmt(ev.e)}">
-           ${tiny ? "" : `<span class="ev-t">${fmt(ev.s)}</span><span>${esc(ev.title)}</span>`}
+           ${tiny ? "" : `<span class="ev-t">${fmt(ev.s)}</span>${label ? `<span>${label}</span>` : ""}`}
          </button>`
-      );
-    }
-    for (const ev of allocated) {
-      const left = x(ev.s), width = Math.max(6, x(ev.e) - x(ev.s));
-      parts.push(
-        `<button type="button" class="alloc ${ev.changed ? "changed" : ""}" data-id="${ev.id}"
-                 style="left:${left}px;width:${width}px;top:${PIN_STRIP + laneCount * LANE + 2}px"
-                 title="Allocated lunch ${fmt(ev.s)}–${fmt(ev.e)}"><span></span></button>`
       );
     }
     for (const ev of minor) {

@@ -25,8 +25,8 @@ export function renderPerson(root, { state, onEvent }) {
   wrap.className = "person";
   const sumParts = [];
   if (sum.first) sumParts.push(`<span><span class="k">Start</span><b>${fmt(sum.first.s)}</b></span>`);
-  if (sum.lunch) sumParts.push(`<span><span class="k">Lunch</span><b>${fmt(sum.lunch.s)}–${fmt(sum.lunch.e)}</b></span>`);
-  if (sum.allocated) sumParts.push(`<span><span class="k">Allocated</span><b>${fmt(sum.allocated.s)}–${fmt(sum.allocated.e)}</b>${sum.lunchMismatch === "none" ? ' <span class="badge badge-warn">outside lunch break</span>' : sum.lunchMismatch === "partial" ? ' <span class="badge badge-warn">partly outside lunch</span>' : ""}</span>`);
+  if (sum.allocated) sumParts.push(`<span><span class="k">Lunch</span><b>${fmt(sum.allocated.s)}–${fmt(sum.allocated.e)}</b>${sum.lunchMismatch === "none" ? ' <span class="badge badge-warn">outside skill break</span>' : sum.lunchMismatch === "partial" ? ' <span class="badge badge-warn">partly outside break</span>' : ""}</span>`);
+  if (sum.lunch) sumParts.push(`<span><span class="k">Skill break</span><b>${fmt(sum.lunch.s)}–${fmt(sum.lunch.e)}</b></span>`);
   if (sum.finish) sumParts.push(`<span><span class="k">Finish</span><b>${fmt(sum.finish.s)}</b></span>`);
 
   let body;

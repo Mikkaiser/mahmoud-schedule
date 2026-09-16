@@ -4,8 +4,8 @@ export const esc = (s) =>
 export const KIND_LABEL = {
   work: "Competing",
   briefing: "Briefing",
-  lunch: "Lunch",
-  "allocated-lunch": "Allocated lunch",
+  lunch: "Skill's lunch break",
+  "allocated-lunch": "Lunch (team slot)",
   break: "Break",
   arrival: "Arrival",
   leave: "Leaving",

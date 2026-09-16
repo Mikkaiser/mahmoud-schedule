@@ -47,7 +47,7 @@ export function summarize(evs, nowMin) {
     finishPins.find((e) => /competitor finish/i.test(e.title)) ??
     finishPins[finishPins.length - 1] ??
     null;
-  const blocks = evs.filter((e) => !e.point && !isAllocated(e));
+  const blocks = evs.filter((e) => !e.point);
   const first = blocks[0] ?? evs[0] ?? null;
   const lastEnd = evs.reduce((m, e) => Math.max(m, e.e), 0);
   const noTimetable = evs.length > 0 && evs.every(isAllocated);
@@ -55,12 +55,14 @@ export function summarize(evs, nowMin) {
   let current = [], next = null, done = false;
   if (nowMin != null) {
     current = blocks.filter((e) => e.s <= nowMin && nowMin < e.e);
-    const upcoming = evs.filter((e) => e.s > nowMin && !isAllocated(e));
+    const upcoming = evs.filter((e) => e.s > nowMin);
     next = upcoming[0] ?? null;
     done = evs.length > 0 && nowMin >= lastEnd;
   }
-  // Which block should headline "now"? Prefer lunch/break, then the shortest (most specific) block.
+  // Which block should headline "now"? The team's allocated lunch first, then the skill's lunch/break,
+  // then the shortest (most specific) block.
   const headline =
+    current.find(isAllocated) ??
     current.find((e) => e.kind === "lunch" || e.kind === "break") ??
     [...current].sort((a, b) => a.e - a.s - (b.e - b.s))[0] ??
     null;
