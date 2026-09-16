@@ -39,6 +39,8 @@ jobs:
         with:
           context: .
           push: true
+          build-args: |
+            SW_VERSION=${{ github.sha }}
           tags: |
             ${{ env.IMAGE }}:latest
             ${{ env.IMAGE }}:${{ github.sha }}

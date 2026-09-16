@@ -6,6 +6,8 @@ RUN npm ci --omit=dev
 COPY server.js ./
 COPY data ./data
 COPY public ./public
+ARG SW_VERSION=dev
+RUN sed -i "s/__SW_VERSION__/${SW_VERSION}/" public/sw.js
 RUN mkdir -p /app/store && chown -R node:node /app/store
 USER node
 EXPOSE 8080

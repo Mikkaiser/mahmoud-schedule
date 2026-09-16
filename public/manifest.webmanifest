@@ -6,9 +6,10 @@
   "orientation": "any",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
+  "description": "Team UAE competitor schedules, lunch slots and finish times for WorldSkills Shanghai 2026.",
   "icons": [
-    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" },
-    { "src": "/icons/icon-180.png", "sizes": "180x180", "type": "image/png" },
-    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
   ]
 }

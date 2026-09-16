@@ -4,7 +4,7 @@ import { renderBoard, getDensity, setDensity } from "./views/board.js";
 import { renderNow } from "./views/now.js";
 import { renderPerson } from "./views/person.js";
 import { openSheet, closeSheet } from "./views/sheet.js";
-import { api } from "./lib/api.js";
+import { api, status as apiStatus } from "./lib/api.js";
 
 const $ = (id) => document.getElementById(id);
 const POLL_MS = 60_000;
@@ -143,12 +143,18 @@ async function loadAll() {
     const [schedule, overrides] = await Promise.all([api.schedule(), api.overrides()]);
     state.schedule = schedule;
     state.overrides = overrides;
-    state.lastFetch = new Date();
-    state.offlineSince = null;
-    cache.set("schedule", schedule);
-    cache.set("overrides", overrides);
-    cache.set("lastFetch", state.lastFetch.toISOString());
-    setBanner("");
+    if (apiStatus.stale) {
+      state.offlineSince = new Date();
+      const at = cache.get("lastFetch");
+      setBanner(`Offline — showing the schedule as of ${at ? new Date(at).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" }) : "last visit"}.`);
+    } else {
+      state.lastFetch = new Date();
+      state.offlineSince = null;
+      cache.set("schedule", schedule);
+      cache.set("overrides", overrides);
+      cache.set("lastFetch", state.lastFetch.toISOString());
+      setBanner("");
+    }
   } catch (err) {
     const cached = cache.get("schedule");
     if (!cached) {
@@ -168,6 +174,7 @@ async function pollOverrides() {
   if (document.hidden) return;
   try {
     const o = await api.overrides();
+    if (apiStatus.stale) throw new Error("offline");
     const changed = JSON.stringify(o) !== JSON.stringify(state.overrides);
     state.overrides = o;
     cache.set("overrides", o);
@@ -232,9 +239,38 @@ function setupUnlock() {
   });
 }
 
+// ---------- service worker (PWA) ----------
+function setupServiceWorker() {
+  if (!("serviceWorker" in navigator) || location.hostname === "localhost" && new URLSearchParams(location.search).has("nosw")) return;
+  navigator.serviceWorker.register("/sw.js").then((reg) => {
+    const offerReload = () => {
+      const b = $("update");
+      b.hidden = false;
+      b.onclick = () => { reg.waiting?.postMessage("skip-waiting"); };
+    };
+    if (reg.waiting && navigator.serviceWorker.controller) offerReload();
+    reg.addEventListener("updatefound", () => {
+      const w = reg.installing;
+      w?.addEventListener("statechange", () => {
+        if (w.state === "installed" && navigator.serviceWorker.controller) offerReload();
+      });
+    });
+    // Look for a new build whenever the iPad comes back to the app.
+    document.addEventListener("visibilitychange", () => { if (!document.hidden) reg.update().catch(() => {}); });
+    setInterval(() => reg.update().catch(() => {}), 10 * 60_000);
+  }).catch((e) => console.warn("sw:", e.message));
+  let reloading = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (reloading) return;
+    reloading = true;
+    location.reload();
+  });
+}
+
 // ---------- boot ----------
 async function boot() {
   setupUnlock();
+  setupServiceWorker();
   const ok = await loadAll();
   if (!ok) return;
   // Re-validate a remembered passcode silently; drop it if it no longer works.

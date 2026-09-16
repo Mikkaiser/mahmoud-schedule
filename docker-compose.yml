@@ -1,6 +1,9 @@
 services:
   mahmoud-schedule:
-    build: .
+    build:
+      context: .
+      args:
+        SW_VERSION: ${SW_VERSION:-dev}
     container_name: mahmoud-schedule
     restart: unless-stopped
     ports:

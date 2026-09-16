@@ -1,5 +1,8 @@
+export const status = { stale: false };
+
 async function request(path, opts = {}) {
   const res = await fetch(path, { cache: "no-store", ...opts });
+  if (!opts.method || opts.method === "GET") status.stale = res.headers.get("X-From-Cache") === "1";
   if (!res.ok) {
     let msg = res.statusText;
     try { msg = (await res.json()).error ?? msg; } catch {}

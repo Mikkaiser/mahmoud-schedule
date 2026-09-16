@@ -121,6 +121,7 @@ app.use(
       if (filePath.endsWith(".html") || filePath.endsWith(".js") || filePath.endsWith(".css")) {
         res.set("Cache-Control", "no-cache");
       }
+      if (filePath.endsWith("sw.js")) res.set("Service-Worker-Allowed", "/");
     },
   })
 );
