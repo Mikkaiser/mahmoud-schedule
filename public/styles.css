@@ -141,6 +141,7 @@ a { color: inherit; text-decoration: none; }
 .lg-allocated::before { background: transparent; border: 2px solid var(--lunch); }
 .lg-other { --c: var(--other); }
 .lg-finish::before { width: 3px; border-radius: 1px; background: var(--finish); }
+.lg-minor::before { height: 5px; width: 18px; background: var(--briefing); opacity: .8; }
 
 .lock {
   display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 14px;

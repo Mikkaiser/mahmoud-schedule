@@ -79,6 +79,7 @@ function renderChrome() {
   const dens = $("density");
   dens.hidden = state.view !== "board";
   dens.textContent = getDensity() === "compact" ? "Show details" : "Compact";
+  $("lg-minor").hidden = !(state.view === "board" && getDensity() === "compact");
   const lock = $("lock");
   lock.setAttribute("aria-pressed", String(state.editing));
   $("lock-label").textContent = state.editing ? "Editing on" : "Unlock editing";
