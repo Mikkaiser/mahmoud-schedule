@@ -2,11 +2,11 @@ import { fmt, now } from "../lib/time.js";
 import { esc, orderedPeople } from "../lib/html.js";
 import { personDay, packLanes, groupPins, summarize } from "../lib/model.js";
 
-const MIN_PX_HOUR = 72;
 const FOCUS_HOURS = 7; // hours visible at once on the live day
 const DENSITY = {
-  detailed: { lane: 30, pinStrip: 16, minRow: 60 },
-  compact: { lane: 26, pinStrip: 12, minRow: 50 },
+  // Detailed is roomy on purpose: wide hours and tall lanes so labels read at arm's length.
+  detailed: { lane: 42, pinStrip: 22, minRow: 88, minPxHour: 128 },
+  compact: { lane: 26, pinStrip: 12, minRow: 50, minPxHour: 72 },
 };
 const MAJOR = new Set(["work", "lunch", "allocated-lunch", "break"]);
 
@@ -30,7 +30,7 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
   const dayEvents = events.filter((e) => e.day === day);
   const density = getDensity();
   const compact = density === "compact";
-  const { lane: LANE, pinStrip: PIN_STRIP, minRow } = DENSITY[density];
+  const { lane: LANE, pinStrip: PIN_STRIP, minRow, minPxHour: MIN_PX_HOUR } = DENSITY[density];
 
   // Time axis: hour-rounded span of the day's data, at least 07:00–20:00.
   let minH = 7, maxH = 20;
@@ -49,7 +49,8 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
   const x = (min) => ((min - minH * 60) / 60) * pxHour;
 
   const board = document.createElement("div");
-  board.className = "board";
+  board.className = `board ${density}`;
+  board.style.setProperty("--lane", `${LANE}px`);
   board.dataset.day = day;
   board.style.setProperty("--px-hour", `${pxHour}px`);
   board.style.setProperty("--hours", hours);

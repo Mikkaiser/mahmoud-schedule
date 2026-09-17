@@ -190,6 +190,14 @@ a { color: inherit; text-decoration: none; }
   -webkit-user-select: none; user-select: none;
 }
 .ev .ev-t { color: var(--ink-2); font-weight: 500; }
+.board.detailed .ev { font-size: 14px; padding: 0 10px; gap: 8px; border-radius: 8px; }
+.board.detailed .ev-allocated-lunch { font-size: 13px; padding: 0 6px; }
+.board.detailed .row-name .nm { font-size: 16px; }
+.board.detailed .row-name .sk { font-size: 13px; }
+.board.detailed .row-name .st { font-size: 13px; margin-top: 4px; }
+.board.detailed .row-name { padding: 10px 14px; }
+.board.detailed .pin { height: 26px; }
+.board.detailed .axis-hour { font-size: 13px; }
 .ev-work { --c: var(--work); --soft: var(--work-soft); }
 .ev-briefing { --c: var(--briefing); --soft: var(--briefing-soft); }
 .ev-allocated-lunch { --c: var(--lunch); --soft: var(--lunch); color: #1a1400; }
