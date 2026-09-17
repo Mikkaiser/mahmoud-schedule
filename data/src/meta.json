@@ -6,10 +6,39 @@
   },
   "days": [
     {
+      "id": "C-7",
+      "label": "C-7",
+      "subtitle": "Delegates arrive",
+      "date": "2026-09-16",
+      "note": "Technical Delegates and Chief Experts arrive. Nothing scheduled for the team."
+    },
+    {
+      "id": "C-6",
+      "label": "C-6",
+      "subtitle": "Experts arrive",
+      "date": "2026-09-17",
+      "note": "Experts and Interpreters arrive; skill preparation begins. Nothing scheduled for the team."
+    },
+    {
+      "id": "C-5",
+      "label": "C-5",
+      "subtitle": "Expert orientation",
+      "date": "2026-09-18",
+      "note": "Expert orientation and excursion. Nothing scheduled for the team."
+    },
+    {
+      "id": "C-4",
+      "label": "C-4",
+      "subtitle": "Team arrives",
+      "date": "2026-09-19",
+      "note": "Arrival of Official Delegates, Team Leaders and Competitors. No access to the competition site today."
+    },
+    {
       "id": "C-3",
       "label": "C-3",
       "subtitle": "Excursion & welcome reception",
-      "date": "2026-09-20"
+      "date": "2026-09-20",
+      "note": "Competitors and Team Leaders have no access to the site. Excursion and Welcome Reception in the afternoon."
     },
     {
       "id": "C-2",
@@ -21,7 +50,8 @@
       "id": "C-1",
       "label": "C-1",
       "subtitle": "Opening Ceremony",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "note": "Familiarization continues for CNC Turning (times not published). Opening Ceremony in the evening."
     },
     {
       "id": "C1",
@@ -52,6 +82,13 @@
       "label": "C+1",
       "subtitle": "Closing Ceremony",
       "date": "2026-09-27"
+    },
+    {
+      "id": "C+2",
+      "label": "C+2",
+      "subtitle": "Departures",
+      "date": "2026-09-28",
+      "note": "Departures."
     }
   ],
   "people": [

@@ -32,7 +32,7 @@ for (const d of schedule.days) {
 for (const d of schedule.days) {
   for (const p of schedule.people) {
     const evs = schedule.events.filter((e) => e.day === d.id && e.person === p.id);
-    if (evs.length === 0) console.warn(`note: ${p.id} has no events on ${d.id}`);
+    if (evs.length === 0) { if (!d.note) console.warn(`note: ${p.id} has no events on ${d.id}`); }
     else if (!evs.some((e) => e.kind === "lunch" || e.kind === "allocated-lunch"))
       console.warn(`note: ${p.id} has no lunch on ${d.id}`);
   }

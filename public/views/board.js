@@ -93,7 +93,7 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
     // Status line under the name.
     let status = "";
     if (sum.noTimetable) status = `No timetable published`;
-    else if (evs.length === 0) status = isLeader ? `No schedule yet` : `Not on site today`;
+    else if (evs.length === 0) status = dayInfo.note ? "" : isLeader ? `No schedule yet` : `Not on site today`;
     else if (nowMin == null) status = `${fmt(sum.first?.s ?? evs[0].s)} – ${fmt(sum.lastEnd)}`;
     else if (sum.done) status = `Done for the day`;
     else if (sum.headline) status = `<b>${esc(shortTitle(sum.headline))}</b> until ${fmt(sum.headline.e)}`;
@@ -117,7 +117,7 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
     if (sum.noTimetable && sum.allocated) {
       parts.push(`<span class="no-tt">Only the allocated lunch (${fmt(sum.allocated.s)}–${fmt(sum.allocated.e)}) is published</span>`);
     } else if (evs.length === 0) {
-      parts.push(`<span class="no-tt">${isLeader ? "Add Mahmoud's timetable in data/src/leader.txt" : "No timetable for this day"}</span>`);
+      parts.push(`<span class="no-tt">${dayInfo.note ? "Nothing scheduled" : isLeader ? "No schedule yet" : "No timetable for this day"}</span>`);
     }
     for (const { ev, lane } of placed) {
       const left = x(ev.s), width = Math.max(6, x(ev.e) - x(ev.s));

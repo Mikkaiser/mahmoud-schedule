@@ -6,10 +6,39 @@
   },
   "days": [
     {
+      "id": "C-7",
+      "label": "C-7",
+      "subtitle": "Delegates arrive",
+      "date": "2026-09-16",
+      "note": "Technical Delegates and Chief Experts arrive. Nothing scheduled for the team."
+    },
+    {
+      "id": "C-6",
+      "label": "C-6",
+      "subtitle": "Experts arrive",
+      "date": "2026-09-17",
+      "note": "Experts and Interpreters arrive; skill preparation begins. Nothing scheduled for the team."
+    },
+    {
+      "id": "C-5",
+      "label": "C-5",
+      "subtitle": "Expert orientation",
+      "date": "2026-09-18",
+      "note": "Expert orientation and excursion. Nothing scheduled for the team."
+    },
+    {
+      "id": "C-4",
+      "label": "C-4",
+      "subtitle": "Team arrives",
+      "date": "2026-09-19",
+      "note": "Arrival of Official Delegates, Team Leaders and Competitors. No access to the competition site today."
+    },
+    {
       "id": "C-3",
       "label": "C-3",
       "subtitle": "Excursion & welcome reception",
-      "date": "2026-09-20"
+      "date": "2026-09-20",
+      "note": "Competitors and Team Leaders have no access to the site. Excursion and Welcome Reception in the afternoon."
     },
     {
       "id": "C-2",
@@ -21,7 +50,8 @@
       "id": "C-1",
       "label": "C-1",
       "subtitle": "Opening Ceremony",
-      "date": "2026-09-22"
+      "date": "2026-09-22",
+      "note": "Familiarization continues for CNC Turning (times not published). Opening Ceremony in the evening."
     },
     {
       "id": "C1",
@@ -52,6 +82,13 @@
       "label": "C+1",
       "subtitle": "Closing Ceremony",
       "date": "2026-09-27"
+    },
+    {
+      "id": "C+2",
+      "label": "C+2",
+      "subtitle": "Departures",
+      "date": "2026-09-28",
+      "note": "Departures."
     }
   ],
   "people": [
@@ -7446,6 +7483,262 @@
   ],
   "noTimetable": [
     {
+      "day": "C-7",
+      "person": "maitha"
+    },
+    {
+      "day": "C-7",
+      "person": "essa"
+    },
+    {
+      "day": "C-7",
+      "person": "zayed"
+    },
+    {
+      "day": "C-7",
+      "person": "sultan"
+    },
+    {
+      "day": "C-7",
+      "person": "mansoor"
+    },
+    {
+      "day": "C-7",
+      "person": "shahad-h"
+    },
+    {
+      "day": "C-7",
+      "person": "ibrahim"
+    },
+    {
+      "day": "C-7",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C-7",
+      "person": "hanadi"
+    },
+    {
+      "day": "C-7",
+      "person": "maryam"
+    },
+    {
+      "day": "C-7",
+      "person": "saood"
+    },
+    {
+      "day": "C-7",
+      "person": "mais"
+    },
+    {
+      "day": "C-7",
+      "person": "mariam"
+    },
+    {
+      "day": "C-7",
+      "person": "jenan"
+    },
+    {
+      "day": "C-7",
+      "person": "leen"
+    },
+    {
+      "day": "C-7",
+      "person": "norah"
+    },
+    {
+      "day": "C-6",
+      "person": "maitha"
+    },
+    {
+      "day": "C-6",
+      "person": "essa"
+    },
+    {
+      "day": "C-6",
+      "person": "zayed"
+    },
+    {
+      "day": "C-6",
+      "person": "sultan"
+    },
+    {
+      "day": "C-6",
+      "person": "mansoor"
+    },
+    {
+      "day": "C-6",
+      "person": "shahad-h"
+    },
+    {
+      "day": "C-6",
+      "person": "ibrahim"
+    },
+    {
+      "day": "C-6",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C-6",
+      "person": "hanadi"
+    },
+    {
+      "day": "C-6",
+      "person": "maryam"
+    },
+    {
+      "day": "C-6",
+      "person": "saood"
+    },
+    {
+      "day": "C-6",
+      "person": "mais"
+    },
+    {
+      "day": "C-6",
+      "person": "mariam"
+    },
+    {
+      "day": "C-6",
+      "person": "jenan"
+    },
+    {
+      "day": "C-6",
+      "person": "leen"
+    },
+    {
+      "day": "C-6",
+      "person": "norah"
+    },
+    {
+      "day": "C-5",
+      "person": "maitha"
+    },
+    {
+      "day": "C-5",
+      "person": "essa"
+    },
+    {
+      "day": "C-5",
+      "person": "zayed"
+    },
+    {
+      "day": "C-5",
+      "person": "sultan"
+    },
+    {
+      "day": "C-5",
+      "person": "mansoor"
+    },
+    {
+      "day": "C-5",
+      "person": "shahad-h"
+    },
+    {
+      "day": "C-5",
+      "person": "ibrahim"
+    },
+    {
+      "day": "C-5",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C-5",
+      "person": "hanadi"
+    },
+    {
+      "day": "C-5",
+      "person": "maryam"
+    },
+    {
+      "day": "C-5",
+      "person": "saood"
+    },
+    {
+      "day": "C-5",
+      "person": "mais"
+    },
+    {
+      "day": "C-5",
+      "person": "mariam"
+    },
+    {
+      "day": "C-5",
+      "person": "jenan"
+    },
+    {
+      "day": "C-5",
+      "person": "leen"
+    },
+    {
+      "day": "C-5",
+      "person": "norah"
+    },
+    {
+      "day": "C-4",
+      "person": "maitha"
+    },
+    {
+      "day": "C-4",
+      "person": "essa"
+    },
+    {
+      "day": "C-4",
+      "person": "zayed"
+    },
+    {
+      "day": "C-4",
+      "person": "sultan"
+    },
+    {
+      "day": "C-4",
+      "person": "mansoor"
+    },
+    {
+      "day": "C-4",
+      "person": "shahad-h"
+    },
+    {
+      "day": "C-4",
+      "person": "ibrahim"
+    },
+    {
+      "day": "C-4",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C-4",
+      "person": "hanadi"
+    },
+    {
+      "day": "C-4",
+      "person": "maryam"
+    },
+    {
+      "day": "C-4",
+      "person": "saood"
+    },
+    {
+      "day": "C-4",
+      "person": "mais"
+    },
+    {
+      "day": "C-4",
+      "person": "mariam"
+    },
+    {
+      "day": "C-4",
+      "person": "jenan"
+    },
+    {
+      "day": "C-4",
+      "person": "leen"
+    },
+    {
+      "day": "C-4",
+      "person": "norah"
+    },
+    {
       "day": "C-2",
       "person": "sultan"
     },
@@ -7476,7 +7769,71 @@
     {
       "day": "C4",
       "person": "shahad-m"
+    },
+    {
+      "day": "C+2",
+      "person": "maitha"
+    },
+    {
+      "day": "C+2",
+      "person": "essa"
+    },
+    {
+      "day": "C+2",
+      "person": "zayed"
+    },
+    {
+      "day": "C+2",
+      "person": "sultan"
+    },
+    {
+      "day": "C+2",
+      "person": "mansoor"
+    },
+    {
+      "day": "C+2",
+      "person": "shahad-h"
+    },
+    {
+      "day": "C+2",
+      "person": "ibrahim"
+    },
+    {
+      "day": "C+2",
+      "person": "shahad-m"
+    },
+    {
+      "day": "C+2",
+      "person": "hanadi"
+    },
+    {
+      "day": "C+2",
+      "person": "maryam"
+    },
+    {
+      "day": "C+2",
+      "person": "saood"
+    },
+    {
+      "day": "C+2",
+      "person": "mais"
+    },
+    {
+      "day": "C+2",
+      "person": "mariam"
+    },
+    {
+      "day": "C+2",
+      "person": "jenan"
+    },
+    {
+      "day": "C+2",
+      "person": "leen"
+    },
+    {
+      "day": "C+2",
+      "person": "norah"
     }
   ],
-  "generatedAt": "2026-09-17T11:15:04.132Z"
+  "generatedAt": "2026-09-17T11:45:26.740Z"
 }

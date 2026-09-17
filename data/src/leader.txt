@@ -3,6 +3,14 @@
 #   HH:MM-HH:MM Title
 # Blocks are keyed by day id. Keep the day headers even when empty.
 
+[C-7]
+
+[C-6]
+
+[C-5]
+
+[C-4]
+
 [C-3]
 11:30-14:00 Lunch — Hall 2.2 Delegate Restaurant
 13:30-20:30 Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)
@@ -52,3 +60,5 @@
 11:30-14:00 Lunch — Competitor hotels
 19:00-22:00 Closing Ceremony — Shanghai World Expo Cultural Centre
 22:00-23:59 Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre
+
+[C+2]

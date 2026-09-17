@@ -47,7 +47,7 @@ function card(p, evs, sum, nowMin, live) {
   const lines = [];
 
   if (sum.noTimetable || evs.length === 0) {
-    lines.push(line("", sum.noTimetable ? "No timetable published" : isLeader ? "No schedule yet" : "Not on site today", "muted"));
+    lines.push(line("", sum.noTimetable ? "No timetable published" : "Nothing scheduled", "muted"));
   } else if (live) {
     if (sum.done) lines.push(line("Now", "Done for the day", "muted"));
     else if (sum.headline) {

@@ -53,6 +53,7 @@ function applyRoute() {
   if (state.view === "person" && !state.person) state.person = state.schedule.people[0].id;
   render();
 }
+// Today's tab when today is a programme day; before the programme the first day, after it the last.
 function nearestDay(days) {
   const today = now().date;
   return days.find((d) => d.date >= today) ?? days[days.length - 1];
@@ -72,6 +73,15 @@ function renderChrome() {
          </a>`
     )
     .join("");
+  const active = $("days").querySelector('[aria-current="page"]');
+  if (active) {
+    const strip = $("days");
+    strip.scrollLeft = active.offsetLeft - strip.clientWidth / 2 + active.offsetWidth / 2;
+  }
+  const dayInfo = days.find((d) => d.id === state.day);
+  const note = $("daynote");
+  note.hidden = !dayInfo?.note;
+  note.textContent = dayInfo?.note ?? "";
   for (const a of $("views").querySelectorAll("a")) {
     const v = a.dataset.view;
     a.href = `#/${state.day}/${v}${v === "person" && state.person ? "/" + state.person : ""}`;

@@ -1,0 +1,1 @@
+# C-6 — nothing scheduled for the team (see the day note in data/src/meta.json).
