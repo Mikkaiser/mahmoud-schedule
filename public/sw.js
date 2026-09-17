@@ -4,19 +4,22 @@ const VERSION = "__SW_VERSION__";
 const SHELL_CACHE = `shell-${VERSION}`;
 const DATA_CACHE = "data-v1";
 
+// Scripts and styles live under a per-build path so browsers (and Cloudflare's 4 h browser TTL)
+// can never mix an old script with a new page.
+const ASSET = `/_v/${VERSION}`;
 const SHELL = [
   "/",
   "/index.html",
-  "/styles.css",
-  "/app.js",
-  "/lib/api.js",
-  "/lib/html.js",
-  "/lib/model.js",
-  "/lib/time.js",
-  "/views/board.js",
-  "/views/now.js",
-  "/views/person.js",
-  "/views/sheet.js",
+  `${ASSET}/styles.css`,
+  `${ASSET}/app.js`,
+  `${ASSET}/lib/api.js`,
+  `${ASSET}/lib/html.js`,
+  `${ASSET}/lib/model.js`,
+  `${ASSET}/lib/time.js`,
+  `${ASSET}/views/board.js`,
+  `${ASSET}/views/now.js`,
+  `${ASSET}/views/person.js`,
+  `${ASSET}/views/sheet.js`,
   "/manifest.webmanifest",
   "/icons/icon.svg",
   "/icons/icon-180.png",

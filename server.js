@@ -9,6 +9,7 @@ const require = createRequire(import.meta.url);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const PORT = Number(process.env.PORT) || 8080;
+const APP_VERSION = process.env.APP_VERSION || "dev";
 const EDIT_PASSCODE = process.env.EDIT_PASSCODE || "";
 const STORE_DIR = process.env.STORE_DIR || path.join(__dirname, "store");
 const OVERRIDES_FILE = path.join(STORE_DIR, "overrides.json");
@@ -49,6 +50,10 @@ function saveOverrides() {
   });
   return writeChain;
 }
+
+// index.html and sw.js are stamped with the build version once at startup.
+const indexHtml = (await fs.readFile(path.join(__dirname, "public", "index.html"), "utf8")).replaceAll("__V__", APP_VERSION);
+const swJs = (await fs.readFile(path.join(__dirname, "public", "sw.js"), "utf8")).replace("__SW_VERSION__", APP_VERSION);
 
 // ---- helpers ----
 const TIME_RE = /^([01]\d|2[0-3]):[0-5]\d$/;
@@ -113,11 +118,32 @@ app.delete("/api/overrides/:eventId", requirePasscode, async (req, res) => {
   res.status(204).end();
 });
 
+const PUBLIC = path.join(__dirname, "public");
+
+// Build-versioned assets: the path changes every deploy, so they can be cached forever.
 app.use(
-  express.static(path.join(__dirname, "public"), {
-    extensions: ["html"],
+  `/_v/${APP_VERSION}`,
+  express.static(PUBLIC, { index: false, immutable: true, maxAge: "1y" })
+);
+// A stale page asking for an older build's assets gets the current ones (its next load fixes itself).
+app.use("/_v/:version", (req, res, next) => {
+  req.url = req.url.replace(/^\/_v\/[^/]+/, "");
+  express.static(PUBLIC, { index: false, cacheControl: false, setHeaders: (r) => r.set("Cache-Control", "no-cache") })(req, res, next);
+});
+
+// Root files (page, service worker, manifest, icons): always revalidated.
+app.get(["/", "/index.html"], (req, res) => {
+  res.set("Cache-Control", "no-cache");
+  res.type("html").send(indexHtml);
+});
+app.get("/sw.js", (req, res) => {
+  res.set({ "Cache-Control": "no-cache", "Service-Worker-Allowed": "/" });
+  res.type("application/javascript").send(swJs);
+});
+app.use(
+  express.static(PUBLIC, {
+    index: false,
     setHeaders(res, filePath) {
-      // Static assets are tiny; make sure an iPad never shows a stale app shell.
       if (filePath.endsWith(".html") || filePath.endsWith(".js") || filePath.endsWith(".css")) {
         res.set("Cache-Control", "no-cache");
       }

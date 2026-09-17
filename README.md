@@ -44,7 +44,6 @@ Other details that matter on a competition floor:
   with its own icon. A service worker caches the app and the last schedule, so it opens instantly
   and keeps working when the venue Wi-Fi drops (an "Offline" banner says how old the data is).
   New deploys show a "New version available" bar; tapping it reloads onto the new build.
-- Light and dark themes follow the iPad setting.
 - `?now=2026-09-23T12:10` in the URL simulates a moment in Shanghai time for rehearsing a day.
 
 ## Data
@@ -87,6 +86,10 @@ pulls the image and recreates the container only when it changed.
 On the server: [`docker-compose.prod.yml`](docker-compose.prod.yml) runs the published image with no
 host port; the reverse proxy reaches it over a dedicated Docker network, terminates TLS, and the
 overrides file lives on a bind-mounted volume so it survives redeploys.
+
+Scripts and styles are served under `/_v/<build>/…` (immutable, cached for a year) while the page and
+the service worker are always revalidated, so a CDN or browser can never pair an old script with a new
+page. `APP_VERSION` (the git SHA, set at image build time) is that build id.
 
 ## API
 

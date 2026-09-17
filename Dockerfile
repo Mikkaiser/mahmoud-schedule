@@ -7,7 +7,7 @@ COPY server.js ./
 COPY data ./data
 COPY public ./public
 ARG SW_VERSION=dev
-RUN sed -i "s/__SW_VERSION__/${SW_VERSION}/" public/sw.js
+ENV APP_VERSION=$SW_VERSION
 RUN mkdir -p /app/store && chown -R node:node /app/store
 USER node
 EXPOSE 8080

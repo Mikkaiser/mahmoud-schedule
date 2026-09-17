@@ -34,37 +34,9 @@
   --tap: 44px;
 
   --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
-  color-scheme: light dark;
+  color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --paper: #101114;
-    --paper-2: #17191d;
-    --ink: #f2f3f5;
-    --ink-2: #b4bac3;
-    --ink-3: #7c838d;
-    --grid: #262a30;
-    --grid-strong: #3a3f47;
-    --now: #ff3b57;
-    --now-soft: rgba(255, 59, 87, 0.14);
-    --work: #3fb3b3;
-    --work-soft: #123c3c;
-    --briefing: #8aa6d6;
-    --briefing-soft: #22304a;
-    --lunch: #f2b400;
-    --lunch-soft: #4a3a05;
-    --lunch-ink: #ffd766;
-    --other: #6c737d;
-    --other-soft: #23272d;
-    --break: #d9a520;
-    --break-soft: #3e3110;
-    --finish: #f2f3f5;
-    --warn: #ff3b57;
-    --warn-soft: #3c151c;
-    --ok: #4cc272;
-  }
-}
 
 /* ---------- base ---------- */
 * { box-sizing: border-box; }
