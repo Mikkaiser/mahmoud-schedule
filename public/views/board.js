@@ -2,10 +2,9 @@ import { fmt, now } from "../lib/time.js";
 import { esc, orderedPeople } from "../lib/html.js";
 import { personDay, packLanes, groupPins, summarize } from "../lib/model.js";
 
-const FOCUS_HOURS = 7; // hours visible at once on the live day
 const DENSITY = {
   // Detailed is roomy on purpose: wide hours and tall lanes so labels read at arm's length.
-  detailed: { lane: 42, pinStrip: 22, minRow: 88, minPxHour: 128 },
+  detailed: { lane: 62, pinStrip: 24, minRow: 100, minPxHour: 230 },
   compact: { lane: 26, pinStrip: 12, minRow: 50, minPxHour: 72 },
 };
 const MAJOR = new Set(["work", "lunch", "allocated-lunch", "break"]);
@@ -22,7 +21,7 @@ function dropContainers(blocks) {
   return blocks.filter((a) => !blocks.some((b) => b !== a && b.kind === a.kind && b.s >= a.s && b.e <= a.e && (b.e - b.s) < (a.e - a.s)));
 }
 
-export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
+export function renderBoard(root, { state, onEvent, prevScroll }) {
   const { schedule, events, day } = state;
   const dayInfo = schedule.days.find((d) => d.id === day);
   const t = now();
@@ -38,14 +37,11 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
   if (nowMin != null) { minH = Math.min(minH, Math.floor(nowMin / 60)); maxH = Math.max(maxH, Math.ceil(nowMin / 60) + 1); }
   const hours = maxH - minH;
 
-  // Zoom: on the live day show a ~7 h window from now (the past scrolls off to the left);
-  // otherwise, or when "Whole day" is chosen, fit the day to the screen.
+  // Scale: never narrower than the density's minimum (labels must stay readable); the board scrolls.
   const nameCol = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--name-col")) || 196;
   const avail = root.clientWidth || window.innerWidth;
   const laneWidth = avail - nameCol - 2;
-  const focus = nowMin != null && state.boardZoom !== "day";
-  const fitPx = Math.max(MIN_PX_HOUR, Math.floor(laneWidth / hours));
-  const pxHour = focus ? Math.max(fitPx, Math.floor(laneWidth / FOCUS_HOURS)) : fitPx;
+  const pxHour = Math.max(MIN_PX_HOUR, Math.floor(laneWidth / hours));
   const x = (min) => ((min - minH * 60) / 60) * pxHour;
 
   const board = document.createElement("div");
@@ -62,8 +58,7 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
   parts.push(
     `<div class="board-axis-corner">${
       nowMin != null
-        ? `<button type="button" class="zoom-toggle" id="zoom-toggle" title="Zoom">${focus ? "Whole day" : "Next 7 h"}</button>
-           <button type="button" class="jump-now" id="jump-now" title="Scroll to the current time">Now</button>`
+        ? `<button type="button" class="jump-now" id="jump-now" title="Scroll to the current time">Now</button>`
         : ""
     }</div>`
   );
@@ -127,14 +122,14 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
       if (nowMin != null && ev.s <= nowMin && nowMin < ev.e) cls.push("current");
       // The team lunch slot is only 30 min but is the block that matters most: label it whenever it fits.
       const isAlloc = ev.kind === "allocated-lunch";
-      const tiny = width < (isAlloc ? 40 : 58);
+      const tiny = width < (isAlloc ? 40 : compact ? 58 : 44);
       if (tiny) cls.push("tiny");
       const label = isAlloc ? (width < 96 ? "" : "Lunch") : esc(ev.title);
       parts.push(
         `<button type="button" class="${cls.join(" ")}" data-id="${ev.id}"
                  style="left:${left}px;width:${width}px;top:${PIN_STRIP + lane * LANE + 2}px"
                  title="${esc(ev.title)} ${fmt(ev.s)}–${fmt(ev.e)}">
-           ${tiny ? "" : `<span class="ev-t">${fmt(ev.s)}</span>${label ? `<span>${label}</span>` : ""}`}
+           ${tiny ? "" : `<span class="ev-l"><span class="ev-t">${fmt(ev.s)}</span>${label ? `<span>${label}</span>` : ""}</span>`}
          </button>`
       );
     }
@@ -204,11 +199,6 @@ export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
     board.querySelector("#jump-now").classList.remove("away");
   });
   if (!follow && nowMin != null) board.querySelector("#jump-now")?.classList.add("away");
-  board.querySelector("#zoom-toggle")?.addEventListener("click", () => {
-    state.boardZoom = focus ? "day" : "focus";
-    state.boardFollow = true;
-    rerender();
-  });
 }
 
 function shortTitle(ev) {

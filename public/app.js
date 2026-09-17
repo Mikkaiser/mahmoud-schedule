@@ -106,7 +106,6 @@ export function render() {
     state,
     navigate,
     onEvent: (ev) => openSheet(ev, { state, applyOverride, passcode }),
-    rerender: render,
     // Keep scroll positions across the once-a-minute re-render.
     prevScroll: prevBoard && prevBoard.dataset.day === state.day ? { left: prevBoard.scrollLeft, top: prevBoard.scrollTop } : null,
   };

@@ -14,13 +14,14 @@ Live at **https://mahmoud-schedule.mikkaiser.com** — deliberately hidden from 
 
 ## What it shows
 
-**Board** — one row per person on an hour grid. On the live day a red line marks the current
-Shanghai time; the board opens zoomed to the next seven hours with that line at the left edge and
-keeps following the clock until you scroll away ("Now" brings it back, "Whole day" fits the whole
-timeline). Teal blocks are competing time; the solid amber block is the team's
+**Board** — one row per person on an hour grid. Hours are wide (230 px minimum, the board scrolls sideways) and
+labels wrap inside tall blocks so nothing is cut off; a block already in progress keeps its label
+pinned at the visible edge. On the live day a red line marks the current Shanghai time; the board
+opens with that line at the left edge and keeps following the clock until you scroll away ("Now"
+brings it back). Teal blocks are competing time; the solid amber block is the team's
 *allocated* lunch slot (when they actually go to the restaurant) and the dashed amber outline is the
 skill's own lunch break it has to fit inside, so a mismatch is visible without reading anything.
-"Compact" squeezes briefings and admin items into thin ticks so every competitor fits on a 12.9" iPad.
+"Compact" squeezes briefings and admin items into thin ticks when you need everyone on one screen.
 
 **Now** — a card per person, sorted so whoever changes state soonest is on top: what they are doing,
 what comes next and in how many minutes, lunch vs. allocated (`fits` / `partly outside lunch` /
