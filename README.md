@@ -14,8 +14,10 @@ Live at **https://mahmoud-schedule.mikkaiser.com** — deliberately hidden from 
 
 ## What it shows
 
-**Board** — one row per person on an hour grid. A red line tracks the current Shanghai time and
-auto-scrolls into view. Teal blocks are competing time; the solid amber block is the team's
+**Board** — one row per person on an hour grid. On the live day a red line marks the current
+Shanghai time; the board opens zoomed to the next seven hours with that line at the left edge and
+keeps following the clock until you scroll away ("Now" brings it back, "Whole day" fits the whole
+timeline). Teal blocks are competing time; the solid amber block is the team's
 *allocated* lunch slot (when they actually go to the restaurant) and the dashed amber outline is the
 skill's own lunch break it has to fit inside, so a mismatch is visible without reading anything.
 "Compact" squeezes briefings and admin items into thin ticks so every competitor fits on a 12.9" iPad.

@@ -3,6 +3,7 @@ import { esc, orderedPeople } from "../lib/html.js";
 import { personDay, packLanes, groupPins, summarize } from "../lib/model.js";
 
 const MIN_PX_HOUR = 72;
+const FOCUS_HOURS = 7; // hours visible at once on the live day
 const DENSITY = {
   detailed: { lane: 30, pinStrip: 16, minRow: 60 },
   compact: { lane: 26, pinStrip: 12, minRow: 50 },
@@ -21,7 +22,7 @@ function dropContainers(blocks) {
   return blocks.filter((a) => !blocks.some((b) => b !== a && b.kind === a.kind && b.s >= a.s && b.e <= a.e && (b.e - b.s) < (a.e - a.s)));
 }
 
-export function renderBoard(root, { state, onEvent, prevScroll }) {
+export function renderBoard(root, { state, onEvent, prevScroll, rerender }) {
   const { schedule, events, day } = state;
   const dayInfo = schedule.days.find((d) => d.id === day);
   const t = now();
@@ -37,10 +38,14 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
   if (nowMin != null) { minH = Math.min(minH, Math.floor(nowMin / 60)); maxH = Math.max(maxH, Math.ceil(nowMin / 60) + 1); }
   const hours = maxH - minH;
 
-  // Fit the whole day when the screen is wide enough; otherwise scroll.
+  // Zoom: on the live day show a ~7 h window from now (the past scrolls off to the left);
+  // otherwise, or when "Whole day" is chosen, fit the day to the screen.
   const nameCol = parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--name-col")) || 196;
   const avail = root.clientWidth || window.innerWidth;
-  const pxHour = Math.max(MIN_PX_HOUR, Math.floor((avail - nameCol - 2) / hours));
+  const laneWidth = avail - nameCol - 2;
+  const focus = nowMin != null && state.boardZoom !== "day";
+  const fitPx = Math.max(MIN_PX_HOUR, Math.floor(laneWidth / hours));
+  const pxHour = focus ? Math.max(fitPx, Math.floor(laneWidth / FOCUS_HOURS)) : fitPx;
   const x = (min) => ((min - minH * 60) / 60) * pxHour;
 
   const board = document.createElement("div");
@@ -53,7 +58,14 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
 
   const parts = [];
   parts.push(`<div class="board-grid">`);
-  parts.push(`<div class="board-axis-corner"></div>`);
+  parts.push(
+    `<div class="board-axis-corner">${
+      nowMin != null
+        ? `<button type="button" class="zoom-toggle" id="zoom-toggle" title="Zoom">${focus ? "Whole day" : "Next 7 h"}</button>
+           <button type="button" class="jump-now" id="jump-now" title="Scroll to the current time">Now</button>`
+        : ""
+    }</div>`
+  );
   parts.push(`<div class="board-axis">`);
   for (let h = minH; h <= maxH; h++) {
     const edge = h === minH ? "first" : h === maxH ? "last" : "";
@@ -161,13 +173,41 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
 
   root.appendChild(board);
 
-  if (prevScroll) {
-    board.scrollLeft = prevScroll.left;
-    board.scrollTop = prevScroll.top;
-  } else if (nowMin != null) {
-    // First paint of a live day: bring the current time into view.
-    board.scrollLeft = Math.max(0, x(nowMin) - (avail - nameCol) * 0.35);
+  // Horizontal position. On the live day the board follows the clock: the red line sits just
+  // right of the name column so what is still to come fills the screen. Scrolling sideways by hand
+  // stops the following (the once-a-minute re-render keeps your position); "Now" resumes it.
+  const FOLLOW_GAP = 56;
+  const follow = nowMin != null && state.boardFollow !== false;
+  let programmatic = false;
+  const setScroll = (left, top) => {
+    programmatic = true;
+    board.scrollLeft = left;
+    if (top != null) board.scrollTop = top;
+    requestAnimationFrame(() => { programmatic = false; });
+  };
+  if (follow) {
+    setScroll(Math.max(0, x(nowMin) - FOLLOW_GAP), prevScroll?.top);
+  } else if (prevScroll) {
+    setScroll(prevScroll.left, prevScroll.top);
   }
+  let lastLeft = board.scrollLeft;
+  board.addEventListener("scroll", () => {
+    if (programmatic || board.scrollLeft === lastLeft) { lastLeft = board.scrollLeft; return; }
+    lastLeft = board.scrollLeft;
+    state.boardFollow = false;
+    board.querySelector("#jump-now")?.classList.add("away");
+  }, { passive: true });
+  board.querySelector("#jump-now")?.addEventListener("click", () => {
+    state.boardFollow = true;
+    setScroll(Math.max(0, x(nowMin) - FOLLOW_GAP));
+    board.querySelector("#jump-now").classList.remove("away");
+  });
+  if (!follow && nowMin != null) board.querySelector("#jump-now")?.classList.add("away");
+  board.querySelector("#zoom-toggle")?.addEventListener("click", () => {
+    state.boardZoom = focus ? "day" : "focus";
+    state.boardFollow = true;
+    rerender();
+  });
 }
 
 function shortTitle(ev) {

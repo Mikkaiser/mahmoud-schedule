@@ -45,7 +45,9 @@ function applyRoute() {
   const r = parseHash();
   const days = state.schedule.days;
   const today = days.find((d) => d.date === now().date);
-  state.day = days.some((d) => d.id === r.day) ? r.day : (today ?? nearestDay(days)).id;
+  const nextDay = days.some((d) => d.id === r.day) ? r.day : (today ?? nearestDay(days)).id;
+  if (nextDay !== state.day) state.boardFollow = true; // a fresh day always opens on the current time
+  state.day = nextDay;
   state.view = VIEWS.includes(r.view) ? r.view : "board";
   state.person = r.person && state.schedule.people.some((p) => p.id === r.person) ? r.person : state.person;
   if (state.view === "person" && !state.person) state.person = state.schedule.people[0].id;
@@ -94,6 +96,7 @@ export function render() {
     state,
     navigate,
     onEvent: (ev) => openSheet(ev, { state, applyOverride, passcode }),
+    rerender: render,
     // Keep scroll positions across the once-a-minute re-render.
     prevScroll: prevBoard && prevBoard.dataset.day === state.day ? { left: prevBoard.scrollLeft, top: prevBoard.scrollTop } : null,
   };
