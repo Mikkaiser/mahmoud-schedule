@@ -4,7 +4,7 @@ import { personDay, packLanes, groupPins, summarize } from "../lib/model.js";
 
 const DENSITY = {
   // Detailed is roomy on purpose: wide hours and tall lanes so labels read at arm's length.
-  detailed: { lane: 62, pinStrip: 24, minRow: 100, minPxHour: 230 },
+  detailed: { lane: 62, pinStrip: 24, minRow: 100, minPxHour: 300 },
   compact: { lane: 26, pinStrip: 12, minRow: 50, minPxHour: 72 },
 };
 const MAJOR = new Set(["work", "lunch", "allocated-lunch", "break"]);
@@ -114,6 +114,17 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
     } else if (evs.length === 0) {
       parts.push(`<span class="no-tt">${dayInfo.note ? "Nothing scheduled" : isLeader ? "No schedule yet" : "No timetable for this day"}</span>`);
     }
+    // Free space to the right of each block in its lane, so short blocks can spill their label out.
+    const laneNext = new Map();
+    for (const { ev, lane } of placed) {
+      const list = laneNext.get(lane) ?? [];
+      list.push(ev.s);
+      laneNext.set(lane, list);
+    }
+    const gapAfter = (ev, lane) => {
+      const next = (laneNext.get(lane) ?? []).filter((s) => s >= ev.e).sort((a, b) => a - b)[0];
+      return (next == null ? x(maxH * 60) : x(next)) - x(ev.e);
+    };
     for (const { ev, lane } of placed) {
       const left = x(ev.s), width = Math.max(6, x(ev.e) - x(ev.s));
       const cls = ["ev", `ev-${ev.kind}`];
@@ -125,11 +136,17 @@ export function renderBoard(root, { state, onEvent, prevScroll }) {
       const tiny = width < (isAlloc ? 40 : compact ? 58 : 44);
       if (tiny) cls.push("tiny");
       const label = isAlloc ? (width < 96 ? "" : "Lunch") : esc(ev.title);
+      // A block too narrow for text writes its label on the empty grid to its right, when there is room.
+      const spill = tiny && !compact ? Math.floor(gapAfter(ev, lane)) - 8 : 0;
+      if (spill >= 60) cls.push("spill");
+      const inner = tiny
+        ? spill >= 60 ? `<span class="ev-spill" style="max-width:${spill}px"><span class="ev-t">${fmt(ev.s)}</span> ${esc(ev.title)}</span>` : ""
+        : `<span class="ev-l"><span class="ev-t">${fmt(ev.s)}</span>${label ? `<span>${label}</span>` : ""}</span>`;
       parts.push(
         `<button type="button" class="${cls.join(" ")}" data-id="${ev.id}"
                  style="left:${left}px;width:${width}px;top:${PIN_STRIP + lane * LANE + 2}px"
                  title="${esc(ev.title)} ${fmt(ev.s)}–${fmt(ev.e)}">
-           ${tiny ? "" : `<span class="ev-l"><span class="ev-t">${fmt(ev.s)}</span>${label ? `<span>${label}</span>` : ""}</span>`}
+           ${inner}
          </button>`
       );
     }

@@ -14,7 +14,7 @@ Live at **https://mahmoud-schedule.mikkaiser.com** — deliberately hidden from 
 
 ## What it shows
 
-**Board** — one row per person on an hour grid. Hours are wide (230 px minimum, the board scrolls sideways) and
+**Board** — one row per person on an hour grid. Hours are wide (300 px minimum, the board scrolls sideways) and
 labels wrap inside tall blocks so nothing is cut off; a block already in progress keeps its label
 pinned at the visible edge. On the live day a red line marks the current Shanghai time; the board
 opens with that line at the left edge and keeps following the clock until you scroll away ("Now"
