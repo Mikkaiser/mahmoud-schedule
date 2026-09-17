@@ -78,7 +78,7 @@ function card(p, evs, sum, nowMin, live) {
     const v = sum.lunches
       .map((l) => `${fmt(l.s)}–${fmt(l.e)}${l.changed ? ' <span class="badge badge-changed">moved</span>' : ""}${sum.lunches.length > 1 ? ` <span class="t">${esc(groupLabel(l.title))}</span>` : ""}`)
       .join(" / ");
-    lines.push(line("Skill break", v, "soft"));
+    lines.push(line(sum.allocated ? "Skill break" : "Lunch", v, sum.allocated ? "soft" : ""));
   }
   if (!sum.lunches.length && !sum.allocated && evs.length) {
     lines.push(line("Lunch", "Not in timetable", "muted"));

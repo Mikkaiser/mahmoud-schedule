@@ -14,12 +14,12 @@ const LINE_RE = /^(\d{2}:\d{2})-(\d{2}:\d{2})\s+(.+?)\s*$/;
 // Order matters: first match wins.
 const KIND_RULES = [
   ["allocated-lunch", /allocated lunch/i],
-  ["lunch", /\blunch\b/i],
+  ["lunch", /\blunch\b|\bdinner\b/i],
   ["finish", /competitor finish|^finish$|^end of|competition ends|^end$/i],
   ["break", /\bbreak\b/i],
   ["leave", /\bleav(e|ing)\b|out of competition site|competitors leave/i],
-  ["arrival", /\barriv|reception|enter (the )?(shop|workshop|competition|briefing)|may enter/i],
-  ["briefing", /open comm|briefing|\bbrief\b|^cc\b|compatriot communication|expert\/competitor|expert and competitor|reading and q&a|overview:/i],
+  ["arrival", /\barriv|^reception$|enter (the )?(shop|workshop|competition|briefing)|may enter/i],
+  ["briefing", /team leader meeting|open comm|briefing|\bbrief\b|^cc\b|compatriot communication|expert\/competitor|expert and competitor|reading and q&a|overview:/i],
   // Admin-ish items that would otherwise match the broad "work" rule.
   ["other", /\bmarking\b|walk to|agreement|\bsign|tidy|welcome|timetable/i],
   ["work", /competitors begin/i],
@@ -93,17 +93,22 @@ for (const day of meta.days) {
     }
     buffer = [];
   };
+  // Order matters for ids: keep "@all" fan-out deterministic (it happens after parsing).
   for (const line of text.split("\n")) {
     if (line.startsWith("@")) {
       flush();
       person = line.slice(1).trim();
-      if (!personIds.has(person)) throw new Error(`${day.id}.txt: unknown person "${person}"`);
+      if (person !== "all" && !personIds.has(person)) throw new Error(`${day.id}.txt: unknown person "${person}"`);
     } else if (person) {
       buffer.push(line);
     }
   }
   flush();
 }
+// "@all" blocks (team-wide programme items) fan out to every competitor.
+competitorEvents = competitorEvents.flatMap((e) =>
+  e.person === "all" ? meta.people.map((p) => ({ ...e, person: p.id })) : [e]
+);
 competitorEvents = finalize(dedupe(competitorEvents));
 
 // Which person/day combos have no usable timetable (nothing, or only the allocated lunch)?

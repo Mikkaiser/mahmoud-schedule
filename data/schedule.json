@@ -6,10 +6,22 @@
   },
   "days": [
     {
+      "id": "C-3",
+      "label": "C-3",
+      "subtitle": "Excursion & welcome reception",
+      "date": "2026-09-20"
+    },
+    {
       "id": "C-2",
       "label": "C-2",
       "subtitle": "Familiarization",
       "date": "2026-09-21"
+    },
+    {
+      "id": "C-1",
+      "label": "C-1",
+      "subtitle": "Opening Ceremony",
+      "date": "2026-09-22"
     },
     {
       "id": "C1",
@@ -34,6 +46,12 @@
       "label": "C4",
       "subtitle": "Competition day 4",
       "date": "2026-09-26"
+    },
+    {
+      "id": "C+1",
+      "label": "C+1",
+      "subtitle": "Closing Ceremony",
+      "date": "2026-09-27"
     }
   ],
   "people": [
@@ -135,6 +153,294 @@
     }
   ],
   "events": [
+    {
+      "id": "C-3-maitha-01",
+      "day": "C-3",
+      "person": "maitha",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-essa-01",
+      "day": "C-3",
+      "person": "essa",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-zayed-01",
+      "day": "C-3",
+      "person": "zayed",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-sultan-01",
+      "day": "C-3",
+      "person": "sultan",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-mansoor-01",
+      "day": "C-3",
+      "person": "mansoor",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-shahad-h-01",
+      "day": "C-3",
+      "person": "shahad-h",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-ibrahim-01",
+      "day": "C-3",
+      "person": "ibrahim",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-shahad-m-01",
+      "day": "C-3",
+      "person": "shahad-m",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-hanadi-01",
+      "day": "C-3",
+      "person": "hanadi",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-maryam-01",
+      "day": "C-3",
+      "person": "maryam",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-saood-01",
+      "day": "C-3",
+      "person": "saood",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-mais-01",
+      "day": "C-3",
+      "person": "mais",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-mariam-01",
+      "day": "C-3",
+      "person": "mariam",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-jenan-01",
+      "day": "C-3",
+      "person": "jenan",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-leen-01",
+      "day": "C-3",
+      "person": "leen",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-norah-01",
+      "day": "C-3",
+      "person": "norah",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-maitha-02",
+      "day": "C-3",
+      "person": "maitha",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-essa-02",
+      "day": "C-3",
+      "person": "essa",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-zayed-02",
+      "day": "C-3",
+      "person": "zayed",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-sultan-02",
+      "day": "C-3",
+      "person": "sultan",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-mansoor-02",
+      "day": "C-3",
+      "person": "mansoor",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-shahad-h-02",
+      "day": "C-3",
+      "person": "shahad-h",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-ibrahim-02",
+      "day": "C-3",
+      "person": "ibrahim",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-shahad-m-02",
+      "day": "C-3",
+      "person": "shahad-m",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-hanadi-02",
+      "day": "C-3",
+      "person": "hanadi",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-maryam-02",
+      "day": "C-3",
+      "person": "maryam",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-saood-02",
+      "day": "C-3",
+      "person": "saood",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-mais-02",
+      "day": "C-3",
+      "person": "mais",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-mariam-02",
+      "day": "C-3",
+      "person": "mariam",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-jenan-02",
+      "day": "C-3",
+      "person": "jenan",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-leen-02",
+      "day": "C-3",
+      "person": "leen",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-3-norah-02",
+      "day": "C-3",
+      "person": "norah",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
     {
       "id": "C-2-maitha-01",
       "day": "C-2",
@@ -286,7 +592,7 @@
       "start": "19:15",
       "end": "20:30",
       "title": "Dinner @ Restaurant ???",
-      "kind": "other"
+      "kind": "lunch"
     },
     {
       "id": "C-2-zayed-01",
@@ -1214,6 +1520,294 @@
       "end": "14:00",
       "title": "Competitors leave the competition area",
       "kind": "leave"
+    },
+    {
+      "id": "C-1-maitha-01",
+      "day": "C-1",
+      "person": "maitha",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-essa-01",
+      "day": "C-1",
+      "person": "essa",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-zayed-01",
+      "day": "C-1",
+      "person": "zayed",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-sultan-01",
+      "day": "C-1",
+      "person": "sultan",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-mansoor-01",
+      "day": "C-1",
+      "person": "mansoor",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-shahad-h-01",
+      "day": "C-1",
+      "person": "shahad-h",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-ibrahim-01",
+      "day": "C-1",
+      "person": "ibrahim",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-shahad-m-01",
+      "day": "C-1",
+      "person": "shahad-m",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-hanadi-01",
+      "day": "C-1",
+      "person": "hanadi",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-maryam-01",
+      "day": "C-1",
+      "person": "maryam",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-saood-01",
+      "day": "C-1",
+      "person": "saood",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-mais-01",
+      "day": "C-1",
+      "person": "mais",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-mariam-01",
+      "day": "C-1",
+      "person": "mariam",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-jenan-01",
+      "day": "C-1",
+      "person": "jenan",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-leen-01",
+      "day": "C-1",
+      "person": "leen",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-norah-01",
+      "day": "C-1",
+      "person": "norah",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-maitha-02",
+      "day": "C-1",
+      "person": "maitha",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-essa-02",
+      "day": "C-1",
+      "person": "essa",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-zayed-02",
+      "day": "C-1",
+      "person": "zayed",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-sultan-02",
+      "day": "C-1",
+      "person": "sultan",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-mansoor-02",
+      "day": "C-1",
+      "person": "mansoor",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-shahad-h-02",
+      "day": "C-1",
+      "person": "shahad-h",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-ibrahim-02",
+      "day": "C-1",
+      "person": "ibrahim",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-shahad-m-02",
+      "day": "C-1",
+      "person": "shahad-m",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-hanadi-02",
+      "day": "C-1",
+      "person": "hanadi",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-maryam-02",
+      "day": "C-1",
+      "person": "maryam",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-saood-02",
+      "day": "C-1",
+      "person": "saood",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-mais-02",
+      "day": "C-1",
+      "person": "mais",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-mariam-02",
+      "day": "C-1",
+      "person": "mariam",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-jenan-02",
+      "day": "C-1",
+      "person": "jenan",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-leen-02",
+      "day": "C-1",
+      "person": "leen",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-norah-02",
+      "day": "C-1",
+      "person": "norah",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
     },
     {
       "id": "C1-maitha-01",
@@ -6416,6 +7010,438 @@
       "end": "14:00",
       "title": "Competitor Finish time",
       "kind": "finish"
+    },
+    {
+      "id": "C+1-maitha-01",
+      "day": "C+1",
+      "person": "maitha",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-essa-01",
+      "day": "C+1",
+      "person": "essa",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-zayed-01",
+      "day": "C+1",
+      "person": "zayed",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-sultan-01",
+      "day": "C+1",
+      "person": "sultan",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-mansoor-01",
+      "day": "C+1",
+      "person": "mansoor",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-shahad-h-01",
+      "day": "C+1",
+      "person": "shahad-h",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-ibrahim-01",
+      "day": "C+1",
+      "person": "ibrahim",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-shahad-m-01",
+      "day": "C+1",
+      "person": "shahad-m",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-hanadi-01",
+      "day": "C+1",
+      "person": "hanadi",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-maryam-01",
+      "day": "C+1",
+      "person": "maryam",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-saood-01",
+      "day": "C+1",
+      "person": "saood",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-mais-01",
+      "day": "C+1",
+      "person": "mais",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-mariam-01",
+      "day": "C+1",
+      "person": "mariam",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-jenan-01",
+      "day": "C+1",
+      "person": "jenan",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-leen-01",
+      "day": "C+1",
+      "person": "leen",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-norah-01",
+      "day": "C+1",
+      "person": "norah",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-maitha-02",
+      "day": "C+1",
+      "person": "maitha",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-essa-02",
+      "day": "C+1",
+      "person": "essa",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-zayed-02",
+      "day": "C+1",
+      "person": "zayed",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-sultan-02",
+      "day": "C+1",
+      "person": "sultan",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-mansoor-02",
+      "day": "C+1",
+      "person": "mansoor",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-shahad-h-02",
+      "day": "C+1",
+      "person": "shahad-h",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-ibrahim-02",
+      "day": "C+1",
+      "person": "ibrahim",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-shahad-m-02",
+      "day": "C+1",
+      "person": "shahad-m",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-hanadi-02",
+      "day": "C+1",
+      "person": "hanadi",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-maryam-02",
+      "day": "C+1",
+      "person": "maryam",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-saood-02",
+      "day": "C+1",
+      "person": "saood",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-mais-02",
+      "day": "C+1",
+      "person": "mais",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-mariam-02",
+      "day": "C+1",
+      "person": "mariam",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-jenan-02",
+      "day": "C+1",
+      "person": "jenan",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-leen-02",
+      "day": "C+1",
+      "person": "leen",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-norah-02",
+      "day": "C+1",
+      "person": "norah",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-maitha-03",
+      "day": "C+1",
+      "person": "maitha",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-essa-03",
+      "day": "C+1",
+      "person": "essa",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-zayed-03",
+      "day": "C+1",
+      "person": "zayed",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-sultan-03",
+      "day": "C+1",
+      "person": "sultan",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-mansoor-03",
+      "day": "C+1",
+      "person": "mansoor",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-shahad-h-03",
+      "day": "C+1",
+      "person": "shahad-h",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-ibrahim-03",
+      "day": "C+1",
+      "person": "ibrahim",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-shahad-m-03",
+      "day": "C+1",
+      "person": "shahad-m",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-hanadi-03",
+      "day": "C+1",
+      "person": "hanadi",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-maryam-03",
+      "day": "C+1",
+      "person": "maryam",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-saood-03",
+      "day": "C+1",
+      "person": "saood",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-mais-03",
+      "day": "C+1",
+      "person": "mais",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-mariam-03",
+      "day": "C+1",
+      "person": "mariam",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-jenan-03",
+      "day": "C+1",
+      "person": "jenan",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-leen-03",
+      "day": "C+1",
+      "person": "leen",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-norah-03",
+      "day": "C+1",
+      "person": "norah",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
     }
   ],
   "noTimetable": [
@@ -6452,5 +7478,5 @@
       "person": "shahad-m"
     }
   ],
-  "generatedAt": "2026-09-16T16:37:27.154Z"
+  "generatedAt": "2026-09-17T11:15:04.132Z"
 }

@@ -7,5 +7,312 @@
       "role": "leader"
     }
   ],
-  "events": []
+  "events": [
+    {
+      "id": "C-3-mahmoud-01",
+      "day": "C-3",
+      "person": "mahmoud",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-3-mahmoud-02",
+      "day": "C-3",
+      "person": "mahmoud",
+      "start": "13:30",
+      "end": "20:30",
+      "title": "Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)",
+      "kind": "other"
+    },
+    {
+      "id": "C-2-mahmoud-01",
+      "day": "C-2",
+      "person": "mahmoud",
+      "start": "09:00",
+      "end": "20:00",
+      "title": "Familiarization for competitors (workstations, HSE instructions, equipment training)",
+      "kind": "work"
+    },
+    {
+      "id": "C-2-mahmoud-02",
+      "day": "C-2",
+      "person": "mahmoud",
+      "start": "09:30",
+      "end": "11:00",
+      "title": "Team Leader meeting and orientation — Room M2-02",
+      "kind": "briefing"
+    },
+    {
+      "id": "C-2-mahmoud-03",
+      "day": "C-2",
+      "person": "mahmoud",
+      "start": "11:00",
+      "end": "15:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-mahmoud-04",
+      "day": "C-2",
+      "person": "mahmoud",
+      "start": "16:00",
+      "end": "17:00",
+      "title": "Team Leader meeting — Room M2-02",
+      "kind": "briefing"
+    },
+    {
+      "id": "C-2-mahmoud-05",
+      "day": "C-2",
+      "person": "mahmoud",
+      "start": "17:00",
+      "end": "20:00",
+      "title": "Dinner — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-2-mahmoud-06",
+      "day": "C-2",
+      "person": "mahmoud",
+      "start": "18:00",
+      "end": "20:30",
+      "title": "Team Leader Opening Ceremony rehearsal — Shanghai Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C-1-mahmoud-01",
+      "day": "C-1",
+      "person": "mahmoud",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C-1-mahmoud-02",
+      "day": "C-1",
+      "person": "mahmoud",
+      "start": "20:00",
+      "end": "21:30",
+      "title": "Opening Ceremony — Shanghai World Expo Cultural Center",
+      "kind": "other"
+    },
+    {
+      "id": "C1-mahmoud-01",
+      "day": "C1",
+      "person": "mahmoud",
+      "start": "08:30",
+      "end": "17:00",
+      "title": "Competition and assessment",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mahmoud-02",
+      "day": "C1",
+      "person": "mahmoud",
+      "start": "09:30",
+      "end": "10:30",
+      "title": "Team Leader meeting — Room M2-02",
+      "kind": "briefing"
+    },
+    {
+      "id": "C1-mahmoud-03",
+      "day": "C1",
+      "person": "mahmoud",
+      "start": "10:00",
+      "end": "17:00",
+      "title": "Competition open to the public and media",
+      "kind": "work"
+    },
+    {
+      "id": "C1-mahmoud-04",
+      "day": "C1",
+      "person": "mahmoud",
+      "start": "11:00",
+      "end": "15:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C1-mahmoud-05",
+      "day": "C1",
+      "person": "mahmoud",
+      "start": "17:00",
+      "end": "20:30",
+      "title": "Dinner — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-mahmoud-01",
+      "day": "C2",
+      "person": "mahmoud",
+      "start": "08:30",
+      "end": "17:00",
+      "title": "Competition and assessment",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mahmoud-02",
+      "day": "C2",
+      "person": "mahmoud",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "Competition open to the public and media",
+      "kind": "work"
+    },
+    {
+      "id": "C2-mahmoud-03",
+      "day": "C2",
+      "person": "mahmoud",
+      "start": "09:30",
+      "end": "10:30",
+      "title": "Team Leader meeting — Room M2-02",
+      "kind": "briefing"
+    },
+    {
+      "id": "C2-mahmoud-04",
+      "day": "C2",
+      "person": "mahmoud",
+      "start": "11:00",
+      "end": "15:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C2-mahmoud-05",
+      "day": "C2",
+      "person": "mahmoud",
+      "start": "17:00",
+      "end": "20:30",
+      "title": "Dinner — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-mahmoud-01",
+      "day": "C3",
+      "person": "mahmoud",
+      "start": "08:30",
+      "end": "17:00",
+      "title": "Competition and assessment",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mahmoud-02",
+      "day": "C3",
+      "person": "mahmoud",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "Competition open to the public and media",
+      "kind": "work"
+    },
+    {
+      "id": "C3-mahmoud-03",
+      "day": "C3",
+      "person": "mahmoud",
+      "start": "09:30",
+      "end": "10:30",
+      "title": "Team Leader meeting — Room M2-02",
+      "kind": "briefing"
+    },
+    {
+      "id": "C3-mahmoud-04",
+      "day": "C3",
+      "person": "mahmoud",
+      "start": "11:00",
+      "end": "15:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C3-mahmoud-05",
+      "day": "C3",
+      "person": "mahmoud",
+      "start": "17:00",
+      "end": "20:30",
+      "title": "Dinner — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-mahmoud-01",
+      "day": "C4",
+      "person": "mahmoud",
+      "start": "08:30",
+      "end": "14:00",
+      "title": "Competition and assessment",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mahmoud-02",
+      "day": "C4",
+      "person": "mahmoud",
+      "start": "09:00",
+      "end": "17:00",
+      "title": "Competition open to the public and media",
+      "kind": "work"
+    },
+    {
+      "id": "C4-mahmoud-03",
+      "day": "C4",
+      "person": "mahmoud",
+      "start": "09:30",
+      "end": "10:30",
+      "title": "Team Leader meeting — Room M2-02",
+      "kind": "briefing"
+    },
+    {
+      "id": "C4-mahmoud-04",
+      "day": "C4",
+      "person": "mahmoud",
+      "start": "11:00",
+      "end": "15:00",
+      "title": "Lunch — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C4-mahmoud-05",
+      "day": "C4",
+      "person": "mahmoud",
+      "start": "17:00",
+      "end": "20:30",
+      "title": "Dinner — Hall 2.2 Delegate Restaurant",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-mahmoud-01",
+      "day": "C+1",
+      "person": "mahmoud",
+      "start": "08:00",
+      "end": "14:00",
+      "title": "Skill competition finalization (CIS closes 10:00)",
+      "kind": "work"
+    },
+    {
+      "id": "C+1-mahmoud-02",
+      "day": "C+1",
+      "person": "mahmoud",
+      "start": "11:30",
+      "end": "14:00",
+      "title": "Lunch — Competitor hotels",
+      "kind": "lunch"
+    },
+    {
+      "id": "C+1-mahmoud-03",
+      "day": "C+1",
+      "person": "mahmoud",
+      "start": "19:00",
+      "end": "22:00",
+      "title": "Closing Ceremony — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    },
+    {
+      "id": "C+1-mahmoud-04",
+      "day": "C+1",
+      "person": "mahmoud",
+      "start": "22:00",
+      "end": "23:59",
+      "title": "Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre",
+      "kind": "other"
+    }
+  ]
 }

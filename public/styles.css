@@ -81,10 +81,10 @@ a { color: inherit; text-decoration: none; }
 .brand-team { font-weight: 700; font-size: 17px; }
 .brand-event { color: var(--ink-3); font-size: 12px; white-space: nowrap; }
 
-.days { display: flex; gap: 4px; margin: 0 auto; background: var(--paper-2); padding: 4px; border-radius: 10px; }
+.days { display: flex; gap: 4px; margin: 0 auto; background: var(--paper-2); padding: 4px; border-radius: 10px; overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
 .days a {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  min-width: 64px; height: 44px; padding: 0 12px; border-radius: 7px;
+  flex: none; min-width: 58px; height: 44px; padding: 0 10px; border-radius: 7px;
   font-weight: 600; line-height: 1.1;
 }
 .days a small { font-weight: 500; color: var(--ink-3); font-size: 11px; }
@@ -349,7 +349,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
-  .brand-event { display: none; }
+  .brand { display: none; }
   .legend { display: none; }
   .clock-time { font-size: 22px; }
   .lock span { display: none; }

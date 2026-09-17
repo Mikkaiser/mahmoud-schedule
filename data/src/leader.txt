@@ -1,14 +1,54 @@
-# Mahmoud (team leader) — his own timetable.
-# Add lines under each day when his schedule arrives, same format as the competitor files:
+# Mahmoud (team leader). Source: WSC2026 Programme (schedules/WSC2026_Programme_Shanghai.pdf),
+# "TL" items on pages 6–13. Times read off the programme's hour grid (5-minute precision).
 #   HH:MM-HH:MM Title
 # Blocks are keyed by day id. Keep the day headers even when empty.
 
+[C-3]
+11:30-14:00 Lunch — Hall 2.2 Delegate Restaurant
+13:30-20:30 Excursion including Welcome Reception (13:30 departure from competitor hotels, transfer back at completion)
+
 [C-2]
+09:00-20:00 Familiarization for competitors (workstations, HSE instructions, equipment training)
+09:30-11:00 Team Leader meeting and orientation — Room M2-02
+11:00-15:00 Lunch — Hall 2.2 Delegate Restaurant
+16:00-17:00 Team Leader meeting — Room M2-02
+17:00-20:00 Dinner — Hall 2.2 Delegate Restaurant
+18:00-20:30 Team Leader Opening Ceremony rehearsal — Shanghai Expo Cultural Centre
+
+[C-1]
+11:30-14:00 Lunch — Competitor hotels
+20:00-21:30 Opening Ceremony — Shanghai World Expo Cultural Center
 
 [C1]
+08:30-17:00 Competition and assessment
+09:30-10:30 Team Leader meeting — Room M2-02
+10:00-17:00 Competition open to the public and media
+11:00-15:00 Lunch — Hall 2.2 Delegate Restaurant
+17:00-20:30 Dinner — Hall 2.2 Delegate Restaurant
 
 [C2]
+08:30-17:00 Competition and assessment
+09:00-17:00 Competition open to the public and media
+09:30-10:30 Team Leader meeting — Room M2-02
+11:00-15:00 Lunch — Hall 2.2 Delegate Restaurant
+17:00-20:30 Dinner — Hall 2.2 Delegate Restaurant
 
 [C3]
+08:30-17:00 Competition and assessment
+09:00-17:00 Competition open to the public and media
+09:30-10:30 Team Leader meeting — Room M2-02
+11:00-15:00 Lunch — Hall 2.2 Delegate Restaurant
+17:00-20:30 Dinner — Hall 2.2 Delegate Restaurant
 
 [C4]
+08:30-14:00 Competition and assessment
+09:00-17:00 Competition open to the public and media
+09:30-10:30 Team Leader meeting — Room M2-02
+11:00-15:00 Lunch — Hall 2.2 Delegate Restaurant
+17:00-20:30 Dinner — Hall 2.2 Delegate Restaurant
+
+[C+1]
+08:00-14:00 Skill competition finalization (CIS closes 10:00)
+11:30-14:00 Lunch — Competitor hotels
+19:00-22:00 Closing Ceremony — Shanghai World Expo Cultural Centre
+22:00-23:59 Farewell Party (until 01:00) — Shanghai World Expo Cultural Centre
